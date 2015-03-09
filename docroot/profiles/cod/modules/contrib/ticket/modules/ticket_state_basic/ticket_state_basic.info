@@ -1,0 +1,13 @@
+name = Basic Registration States
+description = Provides sample ticket registration states.
+package = Ticket
+core = 7.x
+
+dependencies[] = ticket_state
+
+; Information added by Drupal.org packaging script on 2015-01-06
+version = "7.x-1.0-beta3"
+core = "7.x"
+project = "ticket"
+datestamp = "1420573991"
+
