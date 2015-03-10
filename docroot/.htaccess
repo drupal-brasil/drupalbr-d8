@@ -56,6 +56,12 @@ DirectoryIndex index.php index.html index.htm
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
+  #Drupalcamp sp rule
+  RewriteCond %{HTTP_HOST} ^saopaulo\.drupalcamp\.com\.br$ [NC]
+  RewriteCond %{REQUEST_URI} !^2015
+  RewriteRule (.*) http://%{HTTP_HOST}/2015/$1 [L,R=301]
+
+
   # Set "protossl" to "s" if we were accessed via https://.  This is used later
   # if you enable "www." stripping or enforcement, in order to ensure that
   # you don't bounce between http and https.
