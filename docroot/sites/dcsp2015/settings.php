@@ -52,6 +52,16 @@
  * @see conf_path()
  */
 
+# Drupalcamp sp redirect
+if ($_SERVER['HTTP_HOST'] == 'devdcsp2015.drupal.org.br' && strpos($_SERVER['SCRIPT_URL'],'/2015') !== 0) {
+  header('Location: http://dcsp2015.drupal.org.br/2015');
+}
+
+# Drupalcamp sp redirect
+if ($_SERVER['HTTP_HOST'] == 'saopaulo.drupalcamp.com.br' && strpos($_SERVER['SCRIPT_URL'],'/2015') !== 0) {
+  header('Location: http://saopaulo.drupalcamp.com.br/2015');
+}
+
 /**
  * Database settings:
  *
