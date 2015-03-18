@@ -54,7 +54,7 @@
 
 # Drupalcamp sp redirect
 if (!drupal_is_cli() && $_SERVER['HTTP_HOST'] == 'devdcsp2015.drupal.org.br' && strpos($_SERVER['SCRIPT_URL'],'/2015') !== 0) {
-  header('Location: http://dcsp2015.drupal.org.br/2015/',TRUE,301);
+  header('Location: http://devdcsp2015.drupal.org.br/2015/',TRUE,301);
   die;
 }
 
