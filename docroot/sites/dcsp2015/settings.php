@@ -582,6 +582,34 @@ if (file_exists('/var/www/site-php')) {
   require '/var/www/site-php/drupalbrasil/dcsp2015-settings.inc';
 }
 
+if (isset($_ENV['AH_SITE_ENVIRONMENT'])) {
+  switch ($_ENV['AH_SITE_ENVIRONMENT']) {
+    case 'dev':
+        $conf['googleanalytics_pages'] = '*';
+        $conf['cache'] = FALSE;
+        $conf['block_cache'] = FALSE;
+        $conf['cache_lifetime'] = 0;
+        $conf['page_cache_maximum_age'] = 0;
+        $conf['preprocess_css'] = FALSE;
+        $conf['preprocess_js'] = FALSE;
+      break;
+
+    case 'test':
+      // do something on staging
+      break;
+
+    case 'prod':
+    	$conf['googleanalytics_account'] = 'UA-49342924-2';
+        $conf['cache'] = TRUE;
+        $conf['block_cache'] = TRUE;
+        $conf['cache_lifetime'] = 0;
+        $conf['page_cache_maximum_age'] = 86400;
+        $conf['preprocess_css'] = TRUE;
+        $conf['preprocess_js'] = TRUE;
+      break;
+  }
+}
+
 
 //<DDSETTINGS>
 // Please don't edit anything between <DDSETTINGS> tags.
