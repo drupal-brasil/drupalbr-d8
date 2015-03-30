@@ -1,3 +1,5 @@
+.DS_Store
+
 # Ignore paths that contain user-generated content.
 docroot/files
 docroot/sites/*/files

@@ -9,6 +9,8 @@ body {
 	border-bottom: 20px solid #069;
 }
 
+#navbar {margin-bottom: 0}
+
 #navbar .navbar-header {
 	width: 650px;
 }
