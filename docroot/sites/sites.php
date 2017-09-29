@@ -54,9 +54,4 @@
  * @see http://drupal.org/documentation/install/multi-site
  */
 
-
-$sites['devdcsp2015.drupal.org.br'] = 'dcsp2015';
-$sites['devdcsp2015.drupal.org.br.2015'] = 'dcsp2015';
-$sites['dcsp2015.drupal.org.br'] = 'dcsp2015';
-$sites['saopaulo.drupalcamp.com.br.2015'] = 'dcsp2015';
-$sites['saopaulo.drupalcamp.com.br'] = 'dcsp2015';
+$sites['saopaulo.drupalcamp.com.br'] = 'saopaulo.drupalcamp.com.br';
