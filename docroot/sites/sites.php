@@ -55,4 +55,6 @@
  */
 
 $sites['saopaulo.drupalcamp.com.br'] = 'saopaulo.drupalcamp.com.br';
-$sites['drupal.org.br/drupalcamp'] = 'saopaulo.drupalcamp.com.br';
+$sites['drupal.org.br.drupalcamp'] = 'saopaulo.drupalcamp.com.br';
+$sites['drupalbrasildev.prod.acquia-sites.com.drupalcamp'] = 'saopaulo.drupalcamp.com.br';
+
