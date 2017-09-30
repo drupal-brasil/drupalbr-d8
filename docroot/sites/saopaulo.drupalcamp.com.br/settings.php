@@ -635,7 +635,7 @@ $databases = array (
         array (
           'database' => 'drupalbradb152438',
           'username' => 's8103',
-          'password' => 'zzjePp62tuFJBBm',
+          'password' => 'rgqqdjajAeADiPB',
           'host' => '127.0.0.1',
           'port' => '',
           'driver' => 'mysql',
