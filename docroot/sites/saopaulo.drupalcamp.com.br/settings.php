@@ -633,3 +633,5 @@ if (file_exists('/var/www/site-php')) {
   require '/var/www/site-php/drupalbrasil/drupalcamp2017-settings.inc';
   $databases['drupalcamp2017']['default']['prefix'] = 'drupalcamp2017_';
 }
+
+acquia_hosting_db_choose_active();
