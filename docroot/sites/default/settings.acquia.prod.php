@@ -4,9 +4,9 @@
  * Acquia Prod Environment Settings
  */
 if ($_SERVER['HTTP_HOST'] == 'drupalbrasil.prod.acquia-sites.com' ||
-  $_SERVER['HTTP_HOST'] == 'drupal.org.br') {
+  $_SERVER['HTTP_HOST'] == 'www.drupal.org.br') {
   header('HTTP/1.0 301 Moved Permanently');
-  header('Location: http://www.drupal.org.br' . $_SERVER['REQUEST_URI']);
+  header('Location: http://drupal.org.br' . $_SERVER['REQUEST_URI']);
   exit();
 }
 
