@@ -636,4 +636,4 @@ if (file_exists('/var/www/site-php')) {
 }
 
 
-acquia_hosting_db_choose_active();
+print_r($databases);
