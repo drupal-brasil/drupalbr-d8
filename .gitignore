@@ -4,6 +4,7 @@
 docroot/files
 docroot/sites/*/files
 docroot/sites/*/private
+docroot/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/node_modules
 
 nbproject/
 .sass-cache/

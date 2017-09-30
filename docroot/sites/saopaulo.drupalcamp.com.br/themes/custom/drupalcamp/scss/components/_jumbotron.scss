@@ -1,0 +1,28 @@
+.jumbotron {
+
+  /* The image used */
+  background-image: url("../../assets/images/saopaulo.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  p {
+    margin-bottom: 15px;
+    text-shadow: 1px 1px #000;
+    &:last-child {
+      margin-bottom: 40px;
+    }
+
+  }
+  h1 {
+    text-shadow: 1px 1px #000;
+  }
+
+}
