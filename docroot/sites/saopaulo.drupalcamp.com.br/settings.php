@@ -52,10 +52,6 @@
  * @see conf_path()
  */
 
-error_reporting(E_ALL);
-ini_set('display_errors', TRUE);
-ini_set('display_startup_errors', TRUE);
-
 /**
  * Database settings:
  *
@@ -632,7 +628,7 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  */
 # $conf['allow_css_double_underscores'] = TRUE;
 
-$databases = array (
+/*$databases = array (
   'default' =>
     array (
       'default' =>
@@ -646,4 +642,11 @@ $databases = array (
           'prefix' => 'drupalcamp2017_',
         ),
     ),
-);
+);*/
+
+if (file_exists('/var/www/site-php')) {
+  require '/var/www/site-php/drupalbrasil/drupalcamp2017-settings.inc';
+}
+
+print_r($databases);
+die;
