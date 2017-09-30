@@ -628,18 +628,6 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  */
 # $conf['allow_css_double_underscores'] = TRUE;
 
-$databases = array (
-  'default' =>
-    array (
-      'default' =>
-        array (
-          'database' => 'drupalbradb152438',
-          'username' => 's8103',
-          'password' => 'rgqqdjajAeADiPB',
-          'host' => 'staging-7801.prod.hosting.acquia.com',
-          'port' => '',
-          'driver' => 'mysql',
-          'prefix' => 'drupalcamp2017_',
-        ),
-    ),
-);
+if (file_exists('/var/www/site-php')) {
+  require '/var/www/site-php/drupalbrasil/drupalcamp2017-settings.inc';
+}
