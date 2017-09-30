@@ -630,8 +630,10 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
 
 
 if (file_exists('/var/www/site-php')) {
+  $conf['acquia_hosting_settings_autoconnect'] = FALSE;
   require '/var/www/site-php/drupalbrasil/drupalcamp2017-settings.inc';
   $databases['drupalcamp2017']['default']['prefix'] = 'drupalcamp2017_';
 }
+
 
 acquia_hosting_db_choose_active();
