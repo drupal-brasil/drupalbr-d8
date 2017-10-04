@@ -42,14 +42,14 @@
         <?php endif; ?>
         
         <?php print theme('links__menu_call_to_action', array(
-                'links' => $your_menu_name,
-                'attributes' => array(
-                'id' => 'id',
-                'class' => array('class-1' , 'class-2'),
-                'role' => 'navigation'    
-                ),
-              ));
-        ?>
+    'links' => $call_to_action,
+    'attributes' => array(
+    'id' => 'id',
+    'class' => array('class-1' , 'class-2'),
+    'role' => 'navigation'    
+    ),
+));
+?>
 
         <?php if ($search_form): ?>
           <?php print $search_form; ?>
