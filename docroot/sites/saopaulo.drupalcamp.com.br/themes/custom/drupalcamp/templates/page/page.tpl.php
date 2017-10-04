@@ -40,11 +40,17 @@
             <?php print render($main_menu); ?>
           </ul>
         <?php endif; ?>
-        <?php if ($menu_call_to_action): ?>
-          <ul id="menu-call-to-action" class="menu nav navbar-nav">
-            <?php print render($menu_call_to_action); ?>
-          </ul>
-        <?php endif; ?>
+        
+        <?php print theme('links__menu_call_to_action', array(
+                'links' => $your_menu_name,
+                'attributes' => array(
+                'id' => 'id',
+                'class' => array('class-1' , 'class-2'),
+                'role' => 'navigation'    
+                ),
+              ));
+        ?>
+
         <?php if ($search_form): ?>
           <?php print $search_form; ?>
         <?php endif; ?>

@@ -19,6 +19,6 @@ function drupalcamp_preprocess_page(&$variables) {
     $variables['copyright'] = check_markup($copyright['value'], $copyright['format']);
   }
 
-
+  $vars['call_to_action'] = menu_navigation_links('menu-call-to-action');
 
 }
