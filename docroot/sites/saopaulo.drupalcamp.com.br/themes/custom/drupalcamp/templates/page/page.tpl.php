@@ -40,6 +40,11 @@
             <?php print render($main_menu); ?>
           </ul>
         <?php endif; ?>
+        <?php if ($menu_call_to_action): ?>
+          <ul id="menu-call-to-action" class="menu nav navbar-nav">
+            <?php print render($menu_call_to_action); ?>
+          </ul>
+        <?php endif; ?>
         <?php if ($search_form): ?>
           <?php print $search_form; ?>
         <?php endif; ?>
