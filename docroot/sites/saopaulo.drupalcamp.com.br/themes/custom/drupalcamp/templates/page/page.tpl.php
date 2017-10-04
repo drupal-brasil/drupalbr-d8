@@ -61,7 +61,7 @@
         <div class="jumbotron">
             <h1><?php print $title; ?></h1>
             <p>Venha ver os melhores conteúdo de Drupal do Brasil.</p>
-            <p>24 e 25 de Novembro, 2107 • São Paulo, Brasil</p>
+            <p>24 e 25 de Novembro, 2017 • São Paulo, Brasil</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Inscreva-se agora!</a></p>
         </div>
         <?php endif; ?>
