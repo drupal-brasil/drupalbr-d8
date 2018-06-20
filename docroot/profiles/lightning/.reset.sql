@@ -1,0 +1,1 @@
+DROP DATABASE lightning; CREATE DATABASE lightning;

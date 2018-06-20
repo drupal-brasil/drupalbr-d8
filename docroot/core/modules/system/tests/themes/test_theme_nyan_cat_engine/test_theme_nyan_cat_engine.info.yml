@@ -1,0 +1,12 @@
+name: 'Test theme for Nyan Cat engine'
+type: theme
+description: 'Theme for testing the theme system with the Nyan Cat theme engine'
+version: VERSION
+core: 8.x
+engine: nyan_cat
+base theme: false
+
+# Information added by drush on 2018-04-25
+version: '8.5.3'
+project: 'drupal'
+datestamp: 1524670741

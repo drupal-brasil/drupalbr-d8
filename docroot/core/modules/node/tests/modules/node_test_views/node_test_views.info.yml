@@ -1,0 +1,15 @@
+name: 'Node test views'
+type: module
+description: 'Provides default views for views node tests.'
+package: Testing
+version: VERSION
+core: 8.x
+dependencies:
+  - node
+  - views
+  - language
+
+# Information added by drush on 2018-04-25
+version: '8.5.3'
+project: 'drupal'
+datestamp: 1524670741

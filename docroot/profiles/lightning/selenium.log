@@ -1,0 +1,111 @@
+13:18:30.771 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a standalone Selenium Server
+13:18:30.830 INFO [1] org.openqa.selenium.server.SeleniumServer - Writing debug logs to selenium.log
+13:18:30.830 INFO [1] org.openqa.selenium.server.SeleniumServer - Java: Oracle Corporation 25.102-b14
+13:18:30.831 INFO [1] org.openqa.selenium.server.SeleniumServer - OS: Mac OS X 10.12 x86_64
+13:18:30.859 INFO [1] org.openqa.selenium.server.SeleniumServer - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+13:18:30.993 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+13:18:30.994 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+13:18:30.994 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: com.opera.core.systems.OperaDriver
+13:18:30.994 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:18:30.997 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+13:18:30.998 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+13:18:31.117 INFO [1] org.openqa.selenium.server.SeleniumServer - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:18:31.117 INFO [1] org.openqa.grid.selenium.GridLauncher - Selenium Server is up and running
+13:18:39.629 INFO [16] org.openqa.selenium.server.SeleniumServer - Shutting down...
+13:21:19.205 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a standalone Selenium Server
+13:21:19.256 INFO [1] org.openqa.selenium.server.SeleniumServer - Writing debug logs to selenium.log
+13:21:19.257 INFO [1] org.openqa.selenium.server.SeleniumServer - Java: Oracle Corporation 25.102-b14
+13:21:19.257 INFO [1] org.openqa.selenium.server.SeleniumServer - OS: Mac OS X 10.12 x86_64
+13:21:19.270 INFO [1] org.openqa.selenium.server.SeleniumServer - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+13:21:19.371 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+13:21:19.371 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+13:21:19.371 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: com.opera.core.systems.OperaDriver
+13:21:19.372 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:21:19.375 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+13:21:19.375 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+13:21:19.458 INFO [1] org.openqa.selenium.server.SeleniumServer - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:21:19.458 INFO [1] org.openqa.grid.selenium.GridLauncher - Selenium Server is up and running
+13:21:31.946 INFO [16] org.openqa.selenium.server.SeleniumServer - Shutting down...
+09:12:22.414 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a standalone Selenium Server
+09:12:22.474 INFO [1] org.openqa.selenium.server.SeleniumServer - Writing debug logs to selenium.log
+09:12:22.474 INFO [1] org.openqa.selenium.server.SeleniumServer - Java: Oracle Corporation 25.102-b14
+09:12:22.474 INFO [1] org.openqa.selenium.server.SeleniumServer - OS: Mac OS X 10.12 x86_64
+09:12:22.501 INFO [1] org.openqa.selenium.server.SeleniumServer - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+09:12:22.607 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+09:12:22.607 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+09:12:22.607 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: com.opera.core.systems.OperaDriver
+09:12:22.607 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider com.opera.core.systems.OperaDriver is not registered
+09:12:22.609 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+09:12:22.610 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+09:12:22.736 INFO [1] org.openqa.selenium.server.SeleniumServer - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+09:12:22.737 INFO [1] org.openqa.grid.selenium.GridLauncher - Selenium Server is up and running
+09:12:25.341 INFO [16] org.openqa.selenium.server.SeleniumServer - Shutting down...
+09:13:09.317 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a standalone Selenium Server
+09:13:09.352 INFO [1] org.openqa.selenium.server.SeleniumServer - Writing debug logs to selenium.log
+09:13:09.353 INFO [1] org.openqa.selenium.server.SeleniumServer - Java: Oracle Corporation 25.102-b14
+09:13:09.353 INFO [1] org.openqa.selenium.server.SeleniumServer - OS: Mac OS X 10.12 x86_64
+09:13:09.365 INFO [1] org.openqa.selenium.server.SeleniumServer - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+09:13:09.441 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+09:13:09.442 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+09:13:09.442 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: com.opera.core.systems.OperaDriver
+09:13:09.442 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider com.opera.core.systems.OperaDriver is not registered
+09:13:09.444 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+09:13:09.444 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+09:13:09.509 INFO [1] org.openqa.selenium.server.SeleniumServer - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+09:13:09.509 INFO [1] org.openqa.grid.selenium.GridLauncher - Selenium Server is up and running
+09:13:09.780 INFO [16] org.openqa.selenium.server.SeleniumServer - Shutting down...
+09:14:14.661 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a standalone Selenium Server
+09:14:14.718 INFO [1] org.openqa.selenium.server.SeleniumServer - Writing debug logs to selenium.log
+09:14:14.718 INFO [1] org.openqa.selenium.server.SeleniumServer - Java: Oracle Corporation 25.102-b14
+09:14:14.718 INFO [1] org.openqa.selenium.server.SeleniumServer - OS: Mac OS X 10.12 x86_64
+09:14:14.737 INFO [1] org.openqa.selenium.server.SeleniumServer - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+09:14:14.838 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+09:14:14.838 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+09:14:14.839 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: com.opera.core.systems.OperaDriver
+09:14:14.839 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider com.opera.core.systems.OperaDriver is not registered
+09:14:14.841 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+09:14:14.841 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+09:14:14.926 INFO [1] org.openqa.selenium.server.SeleniumServer - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+09:14:14.926 INFO [1] org.openqa.grid.selenium.GridLauncher - Selenium Server is up and running
+09:14:28.518 INFO [16] org.openqa.selenium.server.SeleniumServer - Shutting down...
+09:14:52.000 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a standalone Selenium Server
+09:14:52.036 INFO [1] org.openqa.selenium.server.SeleniumServer - Writing debug logs to selenium.log
+09:14:52.037 INFO [1] org.openqa.selenium.server.SeleniumServer - Java: Oracle Corporation 25.102-b14
+09:14:52.037 INFO [1] org.openqa.selenium.server.SeleniumServer - OS: Mac OS X 10.12 x86_64
+09:14:52.048 INFO [1] org.openqa.selenium.server.SeleniumServer - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+09:14:52.120 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+09:14:52.120 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+09:14:52.121 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: com.opera.core.systems.OperaDriver
+09:14:52.121 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider com.opera.core.systems.OperaDriver is not registered
+09:14:52.123 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+09:14:52.123 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+09:14:52.188 INFO [1] org.openqa.selenium.server.SeleniumServer - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+09:14:52.188 INFO [1] org.openqa.grid.selenium.GridLauncher - Selenium Server is up and running
+09:15:13.599 INFO [16] org.openqa.selenium.server.SeleniumServer - Shutting down...
+12:48:35.416 INFO [1] org.openqa.grid.selenium.GridLauncher - Launching a standalone Selenium Server
+12:48:35.502 INFO [1] org.openqa.selenium.server.SeleniumServer - Writing debug logs to selenium.log
+12:48:35.502 INFO [1] org.openqa.selenium.server.SeleniumServer - Java: Oracle Corporation 25.102-b14
+12:48:35.502 INFO [1] org.openqa.selenium.server.SeleniumServer - OS: Mac OS X 10.12.6 x86_64
+12:48:35.529 INFO [1] org.openqa.selenium.server.SeleniumServer - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+12:48:35.658 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+12:48:35.659 INFO [1] org.openqa.selenium.remote.server.DefaultDriverSessions - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+12:48:35.660 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: com.opera.core.systems.OperaDriver
+12:48:35.660 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider com.opera.core.systems.OperaDriver is not registered
+12:48:35.663 INFO [1] org.openqa.selenium.remote.server.DefaultDriverProvider - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+12:48:35.663 INFO [1] org.openqa.selenium.remote.server.DefaultDriverFactory - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+12:48:35.817 INFO [1] org.openqa.selenium.server.SeleniumServer - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+12:48:35.817 INFO [1] org.openqa.grid.selenium.GridLauncher - Selenium Server is up and running
