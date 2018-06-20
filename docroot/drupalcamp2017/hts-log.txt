@@ -1,0 +1,48 @@
+HTTrack3.49-2 launched on Sun, 03 Jun 2018 12:56:48 at http://saopaulo.drupalcamp.com.br/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://saopaulo.drupalcamp.com.br/ -O "/home/william/websites/drupalcamp2017" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:56:49	Warning: 	Note: due to saopaulo.drupalcamp.com.br remote robots.txt rules, links beginning with these path will be forbidden: /includes/, /misc/, /modules/, /profiles/, /scripts/, /themes/, /CHANGELOG.txt, /cron.php, /INSTALL.mysql.txt, /INSTALL.pgsql.txt, /INSTALL.sqlite.txt, /install.php, /INSTALL.txt, /LICENSE.txt, /MAINTAINERS.txt, /update.php, /UPGRADE.txt, /xmlrpc.php, /admin/, /comment/reply/, /filter/tips/, /node/add/, /search/, /user/register/, /user/password/, /user/login/, /user/logout/, /?q=admin/, /?q=comment/reply/, /?q=filter/tips/, /?q=node/add/, /?q=search/, /?q=user/password/, /?q=user/register/, /?q=user/login/, /?q=user/logout/ (see in the options to disable this)
+13:01:30	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/content/inscreva-se (from saopaulo.drupalcamp.com.br/)
+13:01:48	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/node/21 (from saopaulo.drupalcamp.com.br/content/voluntário)
+13:02:14	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/a093c586261a31899493255674f96263_0.js
+13:03:18	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.mailerlite.com/js/w/webforms.min.js?v3772b61f1ec61c541c401d4eadfdd02f
+13:04:46	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js (from saopaulo.drupalcamp.com.br/)
+13:05:55	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js (from saopaulo.drupalcamp.com.br/)
+13:06:26	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/logodcamp2 (2).png (from saopaulo.drupalcamp.com.br/)
+13:06:27	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/dcamp-background-2_0.jpg (from saopaulo.drupalcamp.com.br/)
+13:06:33	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/joao.jpg (from saopaulo.drupalcamp.com.br/)
+13:06:34	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/leandro.jpg (from saopaulo.drupalcamp.com.br/)
+13:06:35	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/rafael.jpg (from saopaulo.drupalcamp.com.br/)
+13:06:36	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/tiago_0.jpg (from saopaulo.drupalcamp.com.br/)
+13:06:37	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/william.jpg (from saopaulo.drupalcamp.com.br/)
+13:06:39	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/ffw-logo.png (from saopaulo.drupalcamp.com.br/)
+13:06:40	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/phpsp.png (from saopaulo.drupalcamp.com.br/)
+13:06:41	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/mackenzie_logo.png (from saopaulo.drupalcamp.com.br/)
+13:06:42	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/logo-psl-brasil.png (from saopaulo.drupalcamp.com.br/)
+13:06:43	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/drupalize-me.jpg (from saopaulo.drupalcamp.com.br/)
+13:06:43	Warning: 	HTML file (22075 bytes) retransferred due to lack of cache: saopaulo.drupalcamp.com.br/node/2
+13:06:45	Warning: 	HTML file (22201 bytes) retransferred due to lack of cache: saopaulo.drupalcamp.com.br/node/26
+13:06:46	Warning: 	HTML file (21323 bytes) retransferred due to lack of cache: saopaulo.drupalcamp.com.br/node/41
+13:06:48	Error: 	"Not Found" (404) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/glyphicons-halflings-regular.eot (from saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/css/css_bNTPp8D0cUuaefo1uEuyyddB03PECvdU3nTK1Is6B5M.css)
+13:06:49	Error: 	"Not Found" (404) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/glyphicons-halflings-regular.eot? (from saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/css/css_bNTPp8D0cUuaefo1uEuyyddB03PECvdU3nTK1Is6B5M.css)
+13:06:52	Error: 	"Not Found" (404) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/glyphicons-halflings-regular.woff2 (from saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/css/css_bNTPp8D0cUuaefo1uEuyyddB03PECvdU3nTK1Is6B5M.css)
+13:07:02	Error: 	"Not Found" (404) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/glyphicons-halflings-regular.woff (from saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/css/css_bNTPp8D0cUuaefo1uEuyyddB03PECvdU3nTK1Is6B5M.css)
+13:07:03	Error: 	"Not Found" (404) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/glyphicons-halflings-regular.ttf (from saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/css/css_bNTPp8D0cUuaefo1uEuyyddB03PECvdU3nTK1Is6B5M.css)
+13:07:22	Error: 	"Not Found" (404) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/glyphicons-halflings-regular.svg (from saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/css/css_bNTPp8D0cUuaefo1uEuyyddB03PECvdU3nTK1Is6B5M.css)
+13:07:23	Warning: 	File not parsed, looks like binary: saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/fontawesome-webfont.eot?v=4.7.0
+13:07:42	Warning: 	File not parsed, looks like binary: saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/fontawesome-webfont.eot?
+13:07:47	Warning: 	File not parsed, looks like binary: saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+13:07:57	Warning: 	File not parsed, looks like binary: saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/fontawesome-webfont.woff?v=4.7.0
+13:07:58	Warning: 	File not parsed, looks like binary: saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/fonts/fontawesome-webfont.ttf?v=4.7.0
+13:08:00	Error: 	"Not Found" (404) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/assets/css/throbber.gif (from saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/css/css_bNTPp8D0cUuaefo1uEuyyddB03PECvdU3nTK1Is6B5M.css)
+13:08:01	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/dcamp-background-2_0.jpg (from saopaulo.drupalcamp.com.br/)
+13:08:02	Warning: 	Retry after error -4 (No data (connection closed)) at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/ffw-logo.png (from saopaulo.drupalcamp.com.br/)
+13:08:12	Error: 	"No data (connection closed)" (-4) after 2 retries at link saopaulo.drupalcamp.com.br/sites/saopaulo.drupalcamp.com.br/files/imagens/ffw-logo.png (from saopaulo.drupalcamp.com.br/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 11 minutes 24 seconds : 147 links scanned, 127 files written (14919612 bytes overall) [13984063 bytes received at 20444 bytes/sec], 1602390 bytes transferred using HTTP compression in 56 files, ratio 27%, 1.9 requests per connection
+(8 errors, 29 warnings, 0 messages)

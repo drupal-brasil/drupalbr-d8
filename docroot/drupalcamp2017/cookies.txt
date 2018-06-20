@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.mailerlite.com	TRUE	/	FALSE	1999999999	__cfduid	d9cbc5954a0b25cc3722f38d9be34526c1528041633
+
