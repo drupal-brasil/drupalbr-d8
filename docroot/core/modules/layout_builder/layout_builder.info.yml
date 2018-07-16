@@ -9,8 +9,3 @@ dependencies:
   - contextual
   # @todo Discuss removing in https://www.drupal.org/project/drupal/issues/2935999.
   - field_ui
-
-# Information added by drush on 2018-04-25
-version: '8.5.3'
-project: 'drupal'
-datestamp: 1524670741

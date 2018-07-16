@@ -8,8 +8,3 @@ configure: aggregator.admin_settings
 dependencies:
   - file
   - options
-
-# Information added by drush on 2018-04-25
-version: '8.5.3'
-project: 'drupal'
-datestamp: 1524670741

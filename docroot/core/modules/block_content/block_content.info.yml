@@ -9,8 +9,3 @@ dependencies:
   - text
   - user
 configure: entity.block_content.collection
-
-# Information added by drush on 2018-04-25
-version: '8.5.3'
-project: 'drupal'
-datestamp: 1524670741
