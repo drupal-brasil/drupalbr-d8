@@ -3,10 +3,7 @@
 namespace Drupal\Core\Config;
 
 use Drupal\Component\Utility\Crypt;
-use Drupal\Component\Utility\Unicode;
 use Drupal\Core\Config\Entity\ConfigDependencyManager;
-use Drupal\Core\Config\Entity\ConfigEntityDependency;
-use Drupal\Core\Extension\ProfileHandlerInterface;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 class ConfigInstaller implements ConfigInstallerInterface {
@@ -54,13 +51,6 @@ class ConfigInstaller implements ConfigInstallerInterface {
   protected $sourceStorage;
 
   /**
-   * The profile handler.
-   *
-   * @var \Drupal\Core\Extension\ProfileHandlerInterface
-   */
-  protected $profileHandler;
-
-  /**
    * Is configuration being created as part of a configuration sync.
    *
    * @var bool
@@ -89,17 +79,14 @@ class ConfigInstaller implements ConfigInstallerInterface {
    *   The event dispatcher.
    * @param string $install_profile
    *   The name of the currently active installation profile.
-   * @param \Drupal\Core\Extension\ProfileHandlerInterface $profile_handler
-   *   (optional) The profile handler.
    */
-  public function __construct(ConfigFactoryInterface $config_factory, StorageInterface $active_storage, TypedConfigManagerInterface $typed_config, ConfigManagerInterface $config_manager, EventDispatcherInterface $event_dispatcher, $install_profile, ProfileHandlerInterface $profile_handler = NULL) {
+  public function __construct(ConfigFactoryInterface $config_factory, StorageInterface $active_storage, TypedConfigManagerInterface $typed_config, ConfigManagerInterface $config_manager, EventDispatcherInterface $event_dispatcher, $install_profile) {
     $this->configFactory = $config_factory;
     $this->activeStorages[$active_storage->getCollectionName()] = $active_storage;
     $this->typedConfig = $typed_config;
     $this->configManager = $config_manager;
     $this->eventDispatcher = $event_dispatcher;
     $this->installProfile = $install_profile;
-    $this->profileHandler = $profile_handler ?: \Drupal::service('profile_handler');
   }
 
   /**
@@ -216,16 +203,19 @@ class ConfigInstaller implements ConfigInstallerInterface {
     $dependency_manager = new ConfigDependencyManager();
     $dependency_manager->setData($config_to_create);
     $config_to_create = array_merge(array_flip($dependency_manager->sortAll()), $config_to_create);
+    if (!empty($dependency)) {
+      // In order to work out dependencies we need the full config graph.
+      $dependency_manager->setData($this->getActiveStorages()->readMultiple($existing_config) + $config_to_create);
+      $dependencies = $dependency_manager->getDependentEntities(key($dependency), reset($dependency));
+    }
 
     foreach ($config_to_create as $config_name => $data) {
       // Remove configuration where its dependencies cannot be met.
       $remove = !$this->validateDependencies($config_name, $data, $enabled_extensions, $all_config);
-      // If $dependency is defined, remove configuration that does not have a
-      // matching dependency.
+      // Remove configuration that is not dependent on $dependency, if it is
+      // defined.
       if (!$remove && !empty($dependency)) {
-        // Create a light weight dependency object to check dependencies.
-        $config_entity = new ConfigEntityDependency($config_name, $data);
-        $remove = !$config_entity->hasDependency(key($dependency), reset($dependency));
+        $remove = !isset($dependencies[$config_name]);
       }
 
       if ($remove) {
@@ -327,10 +317,11 @@ class ConfigInstaller implements ConfigInstallerInterface {
         $entity_storage = $this->configManager
           ->getEntityManager()
           ->getStorage($entity_type);
+
+        $id = $entity_storage->getIDFromConfigName($name, $entity_storage->getEntityType()->getConfigPrefix());
         // It is possible that secondary writes can occur during configuration
         // creation. Updates of such configuration are allowed.
         if ($this->getActiveStorages($collection)->exists($name)) {
-          $id = $entity_storage->getIDFromConfigName($name, $entity_storage->getEntityType()->getConfigPrefix());
           $entity = $entity_storage->load($id);
           $entity = $entity_storage->updateFromStorageRecord($entity, $new_config->get());
         }
@@ -339,6 +330,9 @@ class ConfigInstaller implements ConfigInstallerInterface {
         }
         if ($entity->isInstallable()) {
           $entity->trustData()->save();
+          if ($id !== $entity->id()) {
+            trigger_error(sprintf('The configuration name "%s" does not match the ID "%s"', $name, $entity->id()), E_USER_WARNING);
+          }
         }
       }
       else {
@@ -355,7 +349,7 @@ class ConfigInstaller implements ConfigInstallerInterface {
     // Only install configuration for enabled extensions.
     $enabled_extensions = $this->getEnabledExtensions();
     $config_to_install = array_filter($storage->listAll(), function ($config_name) use ($enabled_extensions) {
-      $provider = Unicode::substr($config_name, 0, strpos($config_name, '.'));
+      $provider = mb_substr($config_name, 0, strpos($config_name, '.'));
       return in_array($provider, $enabled_extensions);
     });
     if (!empty($config_to_install)) {
@@ -482,8 +476,7 @@ class ConfigInstaller implements ConfigInstallerInterface {
 
     // Install profiles can not have config clashes. Configuration that
     // has the same name as a module's configuration will be used instead.
-    $profiles = $this->profileHandler->getProfileInheritance();
-    if (!isset($profiles[$name])) {
+    if ($name != $this->drupalGetProfile()) {
       // Throw an exception if the module being installed contains configuration
       // that already exists. Additionally, can not continue installing more
       // modules because those may depend on the current module being installed.

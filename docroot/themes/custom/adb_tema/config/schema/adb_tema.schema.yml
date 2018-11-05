@@ -1,5 +1,0 @@
-# Schema for the theme setting configuration file of the ADB_tema theme.
-
-THEMENAME.settings:
-  type: theme_settings
-  label: 'ADB tema configuracoes'
