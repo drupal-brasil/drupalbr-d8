@@ -1,0 +1,22 @@
+uuid: f49fddaa-4684-4027-aabd-82f913fbdfe0
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - drupal_brasil
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: drupal_brasil_help
+theme: drupal_brasil
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  provider: help
+  label_display: '0'
+visibility: {  }

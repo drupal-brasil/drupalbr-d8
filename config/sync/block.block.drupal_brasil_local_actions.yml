@@ -1,0 +1,20 @@
+uuid: 92d7b7b9-45f6-400f-8cea-ea5c3924a7f4
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - drupal_brasil
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: drupal_brasil_local_actions
+theme: drupal_brasil
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

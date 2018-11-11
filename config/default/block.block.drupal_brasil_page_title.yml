@@ -1,0 +1,20 @@
+uuid: 7396fd21-863e-45fa-b6ea-116138d9c4f1
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - drupal_brasil
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: drupal_brasil_page_title
+theme: drupal_brasil
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da página'
+  provider: core
+  label_display: '0'
+visibility: {  }
