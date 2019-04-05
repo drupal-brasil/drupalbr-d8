@@ -1,4 +1,4 @@
-uuid: 2c872fcb-3e3f-49a8-a8cc-73d68f31daf8
+uuid: 8c5290af-25bb-40c7-8d74-371c261673a9
 langcode: pt-br
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - drupal_brasil
+    - drupalbrasil
 _core:
   default_config_hash: rx9IrdDv7Ldc4kpalZAxdhIPZfYIeOMh1N-qKoQZwHo
-id: drupal_brasil_main_menu
-theme: drupal_brasil
+id: drupalbrasil_main_menu
+theme: drupalbrasil
 region: primary_menu
 weight: 0
 provider: null

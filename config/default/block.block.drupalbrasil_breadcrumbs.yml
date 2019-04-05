@@ -1,15 +1,15 @@
-uuid: acd832ca-9501-4b99-a6f6-3d24b765f900
+uuid: 4135473c-ae29-4a38-93e0-a88c2bc6de31
 langcode: pt-br
 status: true
 dependencies:
   module:
     - system
   theme:
-    - drupal_brasil
+    - drupalbrasil
 _core:
   default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
-id: drupal_brasil_breadcrumbs
-theme: drupal_brasil
+id: drupalbrasil_breadcrumbs
+theme: drupalbrasil
 region: breadcrumb
 weight: 0
 provider: null

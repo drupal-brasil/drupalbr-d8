@@ -1,15 +1,15 @@
-uuid: 97b5d014-6912-4d29-af09-18caefb2a8b9
+uuid: 067cfa05-34af-4fe2-b53f-3046b680a88a
 langcode: pt-br
 status: true
 dependencies:
   module:
     - system
   theme:
-    - drupal_brasil
+    - drupalbrasil
 _core:
   default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
-id: drupal_brasil_branding
-theme: drupal_brasil
+id: drupalbrasil_branding
+theme: drupalbrasil
 region: header
 weight: 0
 provider: null

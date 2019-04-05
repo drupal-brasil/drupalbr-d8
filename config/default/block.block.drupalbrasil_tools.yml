@@ -1,4 +1,4 @@
-uuid: d57edf52-637a-4806-a60f-fddea48927c8
+uuid: 387312ae-edb9-4620-b87f-eb539e5cc742
 langcode: pt-br
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - drupal_brasil
+    - drupalbrasil
 _core:
   default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
-id: drupal_brasil_tools
-theme: drupal_brasil
+id: drupalbrasil_tools
+theme: drupalbrasil
 region: sidebar_first
 weight: 0
 provider: null

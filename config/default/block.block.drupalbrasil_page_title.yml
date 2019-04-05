@@ -1,13 +1,13 @@
-uuid: 7396fd21-863e-45fa-b6ea-116138d9c4f1
+uuid: 96980e57-cd6b-4106-a6f7-a79ac9edcf49
 langcode: pt-br
 status: true
 dependencies:
   theme:
-    - drupal_brasil
+    - drupalbrasil
 _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
-id: drupal_brasil_page_title
-theme: drupal_brasil
+id: drupalbrasil_page_title
+theme: drupalbrasil
 region: content
 weight: -50
 provider: null

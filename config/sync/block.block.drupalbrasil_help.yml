@@ -1,15 +1,15 @@
-uuid: f49fddaa-4684-4027-aabd-82f913fbdfe0
+uuid: 348fbd9b-6546-4a98-851d-cf999074db8c
 langcode: pt-br
 status: true
 dependencies:
   module:
     - help
   theme:
-    - drupal_brasil
+    - drupalbrasil
 _core:
   default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
-id: drupal_brasil_help
-theme: drupal_brasil
+id: drupalbrasil_help
+theme: drupalbrasil
 region: content
 weight: -30
 provider: null

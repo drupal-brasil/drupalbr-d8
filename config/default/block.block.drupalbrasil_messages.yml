@@ -1,15 +1,15 @@
-uuid: 86ea2d33-f5be-4e4e-8139-3688d2330d5f
+uuid: e86dbe42-37a1-457d-bec6-4aad0ab672d6
 langcode: pt-br
 status: true
 dependencies:
   module:
     - system
   theme:
-    - drupal_brasil
+    - drupalbrasil
 _core:
   default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
-id: drupal_brasil_messages
-theme: drupal_brasil
+id: drupalbrasil_messages
+theme: drupalbrasil
 region: highlighted
 weight: 0
 provider: null

@@ -1,4 +1,4 @@
-uuid: e18b1249-1716-46a4-bfe8-5ca5f0d49a56
+uuid: 9554013d-6184-4fd2-964e-1f25b2224f8f
 langcode: pt-br
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - system
   theme:
-    - drupal_brasil
+    - drupalbrasil
 _core:
   default_config_hash: kkISXE1LT2FJEoYnqCrCpeFB-2pmGmMxMklVk7rQcfg
-id: drupal_brasil_footer
-theme: drupal_brasil
+id: drupalbrasil_footer
+theme: drupalbrasil
 region: footer_fifth
 weight: 0
 provider: null
