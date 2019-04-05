@@ -1,4 +1,4 @@
-uuid: 067cfa05-34af-4fe2-b53f-3046b680a88a
+uuid: 140c903b-5745-451b-b1a3-ab67f644b891
 langcode: pt-br
 status: true
 dependencies:
@@ -20,6 +20,6 @@ settings:
   provider: system
   label_display: '0'
   use_site_logo: true
-  use_site_name: true
-  use_site_slogan: true
+  use_site_name: false
+  use_site_slogan: false
 visibility: {  }
