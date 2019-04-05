@@ -2,6 +2,8 @@ uuid: 675bd0b9-96d4-4692-bb58-41377197c74c
 langcode: pt-br
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - drupalbrasil
 _core:
@@ -17,4 +19,9 @@ settings:
   label: 'Título da página'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

@@ -24,7 +24,8 @@ features:
   comment_user_verification: true
   favicon: true
 logo:
-  use_default: true
+  use_default: false
+  path: themes/custom/drupal-brasil/logo.png
 favicon:
   use_default: true
 bootstrap_barrio_region_clean_top_header: 0
