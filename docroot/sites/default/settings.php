@@ -280,7 +280,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'a663417f91a8008f37d31990a319d43b20e71089';
 
 /**
  * Deployment identifier.
@@ -765,9 +765,9 @@ $settings['entity_update_batch_size'] = 50;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
 
 
 // On Acquia Cloud, this include file configures Drupal to use the correct
@@ -777,3 +777,6 @@ $settings['entity_update_batch_size'] = 50;
 if (file_exists('/var/www/site-php')) {
   require('/var/www/site-php/drupalbrasil/drupalbrasil-settings.inc');
 }
+
+$config_directories['vcs'] = $app_root . '/../config/' . basename($site_path);
+$config_directories['sync'] = $app_root . '/../config/sync';

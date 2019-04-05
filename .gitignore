@@ -3,9 +3,17 @@
 # Ignore paths that contain user-generated content.
 docroot/files
 docroot/sites/*/files
+/docroot/sites/*/settings.local.php
+/docroot/sites/*/development-services.local.php
 docroot/sites/*/private
 docroot/sites/saopaulo.drupalcamp.com.br/themes/custom/drupalcamp/node_modules
 
 nbproject/
 .sass-cache/
 *.gz
+
+# Ignore node_modules dir
+/docroot/themes/custom/*/node_modules
+
+# Ignore SimpleTest multi-site environment.
+/docroot/sites/simpletest
