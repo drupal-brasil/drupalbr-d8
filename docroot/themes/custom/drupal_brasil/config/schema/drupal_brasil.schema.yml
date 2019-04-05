@@ -1,5 +1,0 @@
-# Schema for the configuration files of the Bootstrap SASS Subtheme.
-
-drupal_brasil.settings:
-  type: theme_settings
-  label: 'Drupal Brasil theme settings'
