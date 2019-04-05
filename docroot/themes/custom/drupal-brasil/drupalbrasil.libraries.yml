@@ -1,0 +1,33 @@
+global-styling:
+  version: VERSION
+  js:
+    dist/js/global.js: {}
+  css:
+    component:
+      dist/css/style.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+bootstrap:
+  js:
+      #  /sites/site-publico/libraries/bootstrap/js/bootstrap.min.js: {}
+       node_modules/bootstrap/dist/js/bootstrap.min.js: {}
+  # css:
+  #   component:
+  #      /sites/site-publico/libraries/bootstrap/css/bootstrap.min.css: {}
+bootstrap_cdn:
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}
+    //stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js: {}
+  css:
+    component:
+      //stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css: {}
+color.preview:
+  version: VERSION
+  css:
+    theme:
+      color/preview.css: {}
+  js:
+    color/preview.js: {}
+  dependencies:
+    - color/drupal.color
