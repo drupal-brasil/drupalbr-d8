@@ -6,8 +6,11 @@ description: 'Tema Drupal Brasil baseado em Bootstrap 4.'
 base theme: bootstrap_barrio
 
 libraries:
-  - bootstrap_barrio_subtheme/bootstrap_cdn
-  - bootstrap_barrio_subtheme/global-styling
+  - drupalbrasil/global-styling
+  - drupalbrasil/bootstrap
+
+libraries-override:
+  bootstrap_barrio/global-styling: false
 
 regions:
   top_header: 'Top Header'

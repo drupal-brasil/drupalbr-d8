@@ -1,0 +1,1 @@
+!function(o,t){"use strict";Drupal.behaviors.sitepublico={attach:function(o,t){console.log("debug")}}}(jQuery);

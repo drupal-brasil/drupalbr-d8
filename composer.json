@@ -20,9 +20,7 @@
     "drupal/admin_toolbar": "^1.0",
     "drupal/core": "^8.6.1",
     "drush/drush": "^8.1",
-    "drupal/bootstrap_barrio": "^4.17",
-    "drupal/bootstrap_sass": "^1.6",
-    "drupal/bootstrap_library": "^1.11"
+    "drupal/bootstrap_barrio": "^4.17"
   },
   "require-dev": {
     "drupal/devel": "^1.0",
