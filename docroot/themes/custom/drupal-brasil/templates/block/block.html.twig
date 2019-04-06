@@ -1,0 +1,65 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a block.
+ *
+ * Available variables:
+ * - plugin_id: The ID of the block implementation.
+ * - label: The configured label of the block if visible.
+ * - configuration: A list of the block's configuration values.
+ *   - label: The configured label for the block.
+ *   - label_display: The display settings for the label.
+ *   - provider: The module or other provider that provided this block plugin.
+ *   - Block plugin specific settings will also be stored here.
+ * - content: The content of this block.
+ * - attributes: array of HTML attributes populated by modules, intended to
+ *   be added to the main container tag of this template.
+ *   - id: A valid HTML ID and guaranteed unique.
+ * - title_attributes: Same as attributes, except applied to the main title
+ *   tag that appears in the template.
+ * - content_attributes: Same as attributes, except applied to the main content
+ *   tag that appears in the template.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ *
+ * @see template_preprocess_block()
+ *
+ * @ingroup themeable
+ */
+    enclosed == '1' ? 'container' : 'container-fluid',
+#}
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+    content.field_container_fluid.0|render,
+    'd-flex',
+    'justify-content-center',
+  ]
+%}
+{% set bg_image = content.field_image_background.0|render|striptags|trim %}
+{% set bg_color = content.field_background_color.0|render %}
+{% set min_height = content.field_min_height.0|render %}
+{%
+  set styles = [
+    bg_image ? 'background-image:url(' ~ bg_image ~ ');',
+    bg_image ? 'background-size: cover;',
+    bg_color ? 'background-color: ' ~ bg_color ~ ';',
+    min_height ? 'min-height:' ~ min_height ~ ';',
+  ]
+%}
+<section{{ attributes.addClass(classes).setAttribute('style', styles) }}>
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+  {% block content %}
+      <div{{ content_attributes.addClass('content', 'align-self-center', 'container' ) }}>
+        {{ content.body }}
+      </div>
+  {% endblock %}
+</section>
