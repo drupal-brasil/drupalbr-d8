@@ -1,0 +1,10 @@
+uuid: e96e3602-f118-42ce-9f1b-e23a67222459
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - media
+id: media.media_url
+label: 'Media URL'
+targetEntityType: media
+cache: true

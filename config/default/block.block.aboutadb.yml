@@ -1,0 +1,25 @@
+uuid: d152fb9a-b312-4581-933c-0fe6309812c6
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ea6ca271-f840-41de-9ca0-ef490a6f0059'
+  module:
+    - block_content
+  theme:
+    - drupalbrasil
+id: aboutadb
+theme: drupalbrasil
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:ea6ca271-f840-41de-9ca0-ef490a6f0059'
+settings:
+  id: 'block_content:ea6ca271-f840-41de-9ca0-ef490a6f0059'
+  label: 'About ADB'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

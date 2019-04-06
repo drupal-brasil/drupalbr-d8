@@ -1,0 +1,25 @@
+uuid: 0443b8cc-d6d1-4b74-b62b-e1268cbdcde0
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:85211615-c6cc-44ae-a14b-3fd2a5916043'
+  module:
+    - block_content
+  theme:
+    - drupalbrasil
+id: aboutdrupal
+theme: drupalbrasil
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:85211615-c6cc-44ae-a14b-3fd2a5916043'
+settings:
+  id: 'block_content:85211615-c6cc-44ae-a14b-3fd2a5916043'
+  label: 'About Drupal'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

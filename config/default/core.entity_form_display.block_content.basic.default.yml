@@ -5,7 +5,12 @@ dependencies:
   config:
     - block_content.type.basic
     - field.field.block_content.basic.body
+    - field.field.block_content.basic.field_background_color
+    - field.field.block_content.basic.field_container_fluid
+    - field.field.block_content.basic.field_image_background
+    - field.field.block_content.basic.field_min_height
   module:
+    - media_library
     - text
 _core:
   default_config_hash: e1Nu5xXAuF_QplbBUhQBPLnYWvHtDX0MkZnpuCiY8uM
@@ -23,6 +28,32 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+  field_background_color:
+    weight: 28
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_container_fluid:
+    weight: 29
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_image_background:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_min_height:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
   info:
     type: string_textfield
     weight: -5

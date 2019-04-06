@@ -1,0 +1,25 @@
+uuid: 554cce1f-a788-4552-9f12-3eaf63fa6d93
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:28afbd59-56b0-4045-bd29-b4e0d0f423e2'
+  module:
+    - block_content
+  theme:
+    - drupalbrasil
+id: aboutsite
+theme: drupalbrasil
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:28afbd59-56b0-4045-bd29-b4e0d0f423e2'
+settings:
+  id: 'block_content:28afbd59-56b0-4045-bd29-b4e0d0f423e2'
+  label: 'About Site'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

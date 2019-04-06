@@ -1,0 +1,23 @@
+uuid: 47271b74-635c-42ee-93aa-a4eea93064e1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.field_container_fluid
+id: block_content.basic.field_container_fluid
+field_name: field_container_fluid
+entity_type: block_content
+bundle: basic
+label: 'Container Fluid'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: container-fluid
+  off_label: container
+field_type: boolean

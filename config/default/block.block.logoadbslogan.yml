@@ -1,0 +1,31 @@
+uuid: b646cd25-d04d-4049-9a0d-9e47d9937449
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a21ef9e1-d490-42ab-a97e-860d21e9ba38'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupalbrasil
+id: logoadbslogan
+theme: drupalbrasil
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:a21ef9e1-d490-42ab-a97e-860d21e9ba38'
+settings:
+  id: 'block_content:a21ef9e1-d490-42ab-a97e-860d21e9ba38'
+  label: 'Logo ADB + Slogan'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -9,7 +9,7 @@ _core:
 id: drupalbrasil_local_tasks
 theme: drupalbrasil
 region: content
-weight: -40
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:
