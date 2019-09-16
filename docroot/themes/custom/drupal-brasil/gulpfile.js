@@ -22,3 +22,4 @@ function js() {
 }
 
 exports.build = series(css, js);
+exports.default = series(css, js);
