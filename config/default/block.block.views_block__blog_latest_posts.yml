@@ -1,0 +1,33 @@
+uuid: 4cb179d6-9e3c-4aab-824f-a4bc333d7912
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik_subtheme
+id: views_block__blog_latest_posts
+theme: bartik_subtheme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:blog-latest_posts'
+settings:
+  id: 'views_block:blog-latest_posts'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

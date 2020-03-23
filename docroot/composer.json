@@ -24,6 +24,8 @@
         "drupal/pathauto": "^1.6"
     },
     "require-dev": {
+        "drupal/devel": "^2.1",
+        "drupal/kint": "^2.1"
     },
     "conflict": {
         "drupal/drupal": "*"
