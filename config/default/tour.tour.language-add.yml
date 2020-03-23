@@ -1,11 +1,11 @@
-uuid: aae79115-f88c-4362-9d66-1c559d1aab8a
+uuid: b51c8578-14b1-4fc1-ba37-df0747d4ad7c
 langcode: pt-br
 status: true
 dependencies:
   module:
     - language
 _core:
-  default_config_hash: PM2qJqRak_LRDoD905MdombBZUvJvM4ID29VbjtYcZA
+  default_config_hash: xVFzaZr6iMWsqxy9-QqAX3lyUKCyJr16dAXXjhgb3Kk
 id: language-add
 label: 'Adding languages'
 module: language

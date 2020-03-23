@@ -1,0 +1,22 @@
+uuid: 11f767fc-f2e6-4452-ac27-7a911f9576a6
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik_subtheme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: bartik_subtheme_powered
+theme: bartik_subtheme
+region: footer_fifth
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Desenvolvido com Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

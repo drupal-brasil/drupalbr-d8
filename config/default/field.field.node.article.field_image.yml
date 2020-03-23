@@ -1,4 +1,4 @@
-uuid: 8c8954c2-d6f1-416e-afaf-6d34b4ef713e
+uuid: 14df3be9-a51a-41f6-8f3c-254f985706e6
 langcode: pt-br
 status: true
 dependencies:
@@ -13,7 +13,7 @@ id: node.article.field_image
 field_name: field_image
 entity_type: node
 bundle: article
-label: Imagem
+label: Image
 description: ''
 required: false
 translatable: true

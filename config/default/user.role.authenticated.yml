@@ -1,9 +1,9 @@
-uuid: 5f3d3d2e-22a6-4f9c-82d7-e7a3e3e78fd2
+uuid: de79cdfb-990b-473a-b851-33371fc66444
 langcode: pt-br
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
 id: authenticated
 label: 'Usuário autenticado'
 weight: 1
@@ -13,8 +13,12 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'create article content'
+  - 'create terms in tags'
+  - 'edit own article content'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
   - 'view media'
+  - 'view own unpublished content'

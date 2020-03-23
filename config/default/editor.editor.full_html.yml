@@ -1,4 +1,4 @@
-uuid: 5b23418d-a011-4d43-8509-210c227d1dc6
+uuid: 63f56e6e-cf39-4523-8d19-9e1817ca612a
 langcode: pt-br
 status: true
 dependencies:
@@ -45,29 +45,19 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
-            - Styles
         -
           name: Tools
           items:
             - ShowBlocks
             - Source
-        -
-          name: Align
-          items:
-            - JustifyLeft
-            - JustifyCenter
-            - JustifyRight
-            - JustifyBlock
   plugins:
-    language:
-      language_list: un
     stylescombo:
-      styles: 'h2.text-white|Color White'
+      styles: ''
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: null
-    height: null
+    width: 0
+    height: 0

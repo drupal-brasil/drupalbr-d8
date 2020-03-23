@@ -1,4 +1,4 @@
-uuid: 66da2f9b-4486-41c1-9fc7-1d4266ec0748
+uuid: d02618a9-2f45-4f72-8e9e-bb6267582919
 langcode: pt-br
 status: true
 dependencies:
@@ -21,8 +21,6 @@ content:
   links:
     weight: 100
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   body: true
   comment: true

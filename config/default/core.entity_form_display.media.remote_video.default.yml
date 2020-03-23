@@ -1,4 +1,4 @@
-uuid: ee115a14-fa8a-4fe3-b1e9-a594679435f4
+uuid: 98a543a5-92d3-4bb6-b5c2-050a740cf7cd
 langcode: pt-br
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - media
     - path
 _core:
-  default_config_hash: uWhRDlQVs_4mPe2Ndg4OPnEbSc_MDRwz-QBCGlnm-zs
+  default_config_hash: DfbjvjtGEMGLvm-1Zm7-MCRZj3wpGokUWZOuaK5-1Po
 id: media.remote_video.default
 targetEntityType: media
 bundle: remote_video
@@ -54,6 +54,7 @@ content:
     weight: 5
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     region: content

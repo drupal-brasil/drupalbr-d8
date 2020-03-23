@@ -1,4 +1,4 @@
-uuid: bacf22c6-935c-405f-b2a6-b412453d0406
+uuid: c4c91269-5c6f-48d5-a90a-7c9b1af09118
 langcode: pt-br
 status: true
 dependencies:
@@ -24,7 +24,5 @@ content:
   links:
     weight: 100
     region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
   langcode: true

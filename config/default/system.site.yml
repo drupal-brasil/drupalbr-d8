@@ -1,14 +1,14 @@
-uuid: ef0b09cc-faab-410e-abea-a397c73182a8
-name: 'Drupal Brasil'
+uuid: bedec687-3b39-4615-8334-9691d0813f2e
+name: ADB
 mail: drupalcampsp@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: pt-br
 default_langcode: pt-br
 _core:
-  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

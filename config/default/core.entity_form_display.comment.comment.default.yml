@@ -1,4 +1,4 @@
-uuid: 5e3b5787-9683-4518-a465-a1dcf9855ef7
+uuid: 151a9f7a-7509-48ff-bed8-85010fde18a0
 langcode: pt-br
 status: true
 dependencies:
@@ -17,6 +17,8 @@ content:
   author:
     weight: -2
     region: content
+    settings: {  }
+    third_party_settings: {  }
   comment_body:
     type: text_textarea
     weight: 11

@@ -1,4 +1,4 @@
-uuid: 7698c0fd-e11e-419e-b17a-44084dd2738b
+uuid: 786641cd-0870-4861-b448-c977fb5869a6
 langcode: pt-br
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - dblog
     - user
 _core:
-  default_config_hash: mRpCPs9ab0M-w_gYtSyRgFco6FohGMSbiN4DH4-xAxU
+  default_config_hash: oG4FVrpj6HxivwdvkAyY23ApbR-iWTnKvM4JHdJ6XmA
 id: watchdog
 label: Watchdog
 module: views
@@ -14,7 +14,6 @@ description: 'Recent log messages'
 tag: ''
 base_table: watchdog
 base_field: wid
-core: 8.x
 display:
   default:
     display_plugin: default
@@ -585,6 +584,8 @@ display:
               anonymous: '0'
               administrator: '0'
             reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''
@@ -624,6 +625,8 @@ display:
               anonymous: '0'
               administrator: '0'
             reduce: false
+            operator_limit_selection: false
+            operator_list: {  }
           is_grouped: false
           group_info:
             label: ''

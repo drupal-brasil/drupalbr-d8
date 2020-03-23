@@ -1,9 +1,9 @@
-uuid: 2dd4db3c-aa8f-4c85-98cc-087d3249c98f
+uuid: 390a63f9-530b-4414-8b67-338465cab8e6
 langcode: pt-br
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: _Cj9j8iA9MZ3HWv7QEwv1Pdxni0UlWGKnMw3Ou0rlXo
+  default_config_hash: hzgvcRgZHltqWf8hBmttoWh95tCJoPL25lPq9YSIRsY
 id: video
 label: Video
 description: 'A locally hosted video file.'
@@ -12,4 +12,5 @@ queue_thumbnail_downloads: false
 new_revision: true
 source_configuration:
   source_field: field_media_video_file
-field_map: {  }
+field_map:
+  name: name
