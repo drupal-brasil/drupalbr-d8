@@ -11,7 +11,7 @@ dependencies:
     - bartik_subtheme
 id: views_block__blog_latest_posts
 theme: bartik_subtheme
-region: sidebar_second
+region: content
 weight: 0
 provider: null
 plugin: 'views_block:blog-latest_posts'

@@ -1,0 +1,9 @@
+.node--view-mode-teaser h2 a:hover {
+    color: #0071b3;
+    border-bottom: none;
+}
+
+/* Blog */
+.path-blog .page-title {
+    text-align: center;
+}

@@ -5,28 +5,17 @@ dependencies:
   config:
     - core.entity_view_mode.media.teaser
     - field.field.media.image.field_media_image
-    - image.style.article_teaser
     - media.type.image
-  module:
-    - image
 _core:
   default_config_hash: B1a2aBHmUulUZN6HrxITEH1tSResuVjXMBEv1lUBtOo
 id: media.image.teaser
 targetEntityType: media
 bundle: image
 mode: teaser
-content:
-  field_media_image:
-    label: visually_hidden
-    settings:
-      image_style: article_teaser
-      image_link: content
-    third_party_settings: {  }
-    type: image
-    weight: 1
-    region: content
+content: {  }
 hidden:
   created: true
+  field_media_image: true
   langcode: true
   name: true
   thumbnail: true

@@ -3,3 +3,7 @@ global-styling:
   css:
     base:
       css/style.css: {}
+    component:
+      //fonts.googleapis.com/css?family=Open+Sans: {}
+    theme:
+      css/overrides.css: {}
