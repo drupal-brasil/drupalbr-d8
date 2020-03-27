@@ -1,0 +1,10 @@
+uuid: 1eb6d346-9889-4e3a-a080-2e76e9cb4d38
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - media
+id: media.teaser
+label: Chamada
+targetEntityType: media
+cache: true
