@@ -1,0 +1,15 @@
+uuid: 8e8f877c-9c4a-42f8-abbb-251917f346d9
+langcode: pt-br
+status: true
+dependencies: {  }
+name: user_thumbnail
+label: 'User thumbnail'
+effects:
+  e2539227-4155-4871-99bb-d7b7357ec7b4:
+    uuid: e2539227-4155-4871-99bb-d7b7357ec7b4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 50
+      height: 50
+      anchor: center-center

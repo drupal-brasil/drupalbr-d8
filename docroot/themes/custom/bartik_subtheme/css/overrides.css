@@ -11,7 +11,7 @@ h1 {
 }
   
 .page-title {
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .main-content h2 {
@@ -23,6 +23,11 @@ h1 {
 /* node.css */
 .node__content {
     font-size: 1.2em;
+}
+
+.node__meta .field--name-user-picture img {
+    border-radius: 50%;
+    border: 1px solid;
 }
   
 
@@ -48,5 +53,9 @@ h1 {
         width: 75%;
         float: unset;
         margin: auto;
+    }
+
+    .page-title {
+        font-size: 5em;
     }
 }
