@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.user.user.user_picture
-    - image.style.user_thumbnail
+    - image.style.thumbnail
   module:
     - image
     - user
@@ -25,8 +25,8 @@ content:
     weight: 0
     region: content
     settings:
-      image_style: user_thumbnail
-      image_link: content
+      image_style: thumbnail
+      image_link: ''
     third_party_settings: {  }
     label: hidden
 hidden:
