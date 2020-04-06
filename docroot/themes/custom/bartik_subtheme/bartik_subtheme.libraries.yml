@@ -1,9 +1,8 @@
 global-styling:
   version: VERSION
   css:
-    base:
-      css/style.css: {}
     component:
       //fonts.googleapis.com/css?family=Open+Sans: {}
     theme:
+      css/style.css: {}
       css/overrides.css: {}

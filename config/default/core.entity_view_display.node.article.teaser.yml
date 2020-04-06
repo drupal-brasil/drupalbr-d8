@@ -20,7 +20,7 @@ bundle: article
 mode: teaser
 content:
   body:
-    type: text_trimmed
+    type: text_summary_or_trimmed
     weight: 1
     region: content
     settings:

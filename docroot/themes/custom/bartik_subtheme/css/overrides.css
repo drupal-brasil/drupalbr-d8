@@ -1,4 +1,6 @@
-body {
+body,
+#header,
+.link {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -6,18 +8,29 @@ h1 {
     margin-top: 0.2em;
 }
 
-.link {
-    font-family: "Open Sans", sans-serif;
-}
-  
 .page-title {
     font-size: 3em;
 }
 
 .main-content h2 {
     margin-bottom: 2px;
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1.4;
+}
+
+/* Primary Menu */
+.region-primary-menu .menu {
+    margin: 0;
+}
+.region-primary-menu .menu a {
+    margin: 0;
+    border-radius: 0;
+}
+
+/* featured-top.css */
+.featured-top {
+    background-color: #022a50;
+    padding-bottom: 20px;
 }
 
 /* node.css */
@@ -28,8 +41,8 @@ h1 {
 .node__meta .field--name-user-picture img {
     border-radius: 50%;
     border: 1px solid;
+    margin-right: 10px;
 }
-  
 
 /* field.css */
 .field--name-field-tags .field__label {
@@ -55,7 +68,7 @@ h1 {
         margin: auto;
     }
 
-    .page-title {
+    .path-node .page-title {
         font-size: 5em;
     }
 }

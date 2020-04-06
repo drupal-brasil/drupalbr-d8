@@ -8,8 +8,8 @@ _core:
   default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
 id: bartik_subtheme_page_title
 theme: bartik_subtheme
-region: content
-weight: -5
+region: featured_top
+weight: -6
 provider: null
 plugin: page_title_block
 settings:

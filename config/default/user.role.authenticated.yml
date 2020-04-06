@@ -15,6 +15,7 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'access toolbar'
+  - 'access user profiles'
   - 'create article content'
   - 'create document media'
   - 'create image media'

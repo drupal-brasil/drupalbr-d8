@@ -55,8 +55,10 @@
     <header id="header" class="header" role="banner">
       <div class="section layout-container clearfix">
         {{ page.secondary_menu }}
-        {{ page.header }}
-        {{ page.primary_menu }}
+        <div class="main-header">
+          {{ page.header }}
+          {{ page.primary_menu }}
+        </div>
       </div>
     </header>
     {% if page.highlighted %}
