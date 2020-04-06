@@ -27,6 +27,12 @@ h1 {
     border-radius: 0;
 }
 
+/* Breadcrumb */
+.breadcrumb {
+    padding: 0 15px;
+    font-size: 1.2em;
+}
+
 /* featured-top.css */
 .featured-top {
     background-color: #022a50;
@@ -62,6 +68,7 @@ h1 {
 }
 
 @media all and (min-width: 851px) {
+    .layout-no-sidebars .region-breadcrumb,
     .layout-no-sidebars .main-content {
         width: 75%;
         float: unset;
