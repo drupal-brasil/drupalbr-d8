@@ -29,7 +29,6 @@ h1 {
 
 /* Breadcrumb */
 .breadcrumb {
-    padding: 0 15px;
     font-size: 1.2em;
 }
 
@@ -73,6 +72,10 @@ h1 {
         width: 75%;
         float: unset;
         margin: auto;
+    }
+
+    .breadcrumb {
+        padding: 0 15px;
     }
 
     .path-node .page-title {
