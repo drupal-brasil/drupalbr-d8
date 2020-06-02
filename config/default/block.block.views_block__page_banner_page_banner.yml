@@ -1,0 +1,33 @@
+uuid: 9fc5745b-374c-48be-b61b-43b0d3ef57f9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.page_banner
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik_subtheme
+id: views_block__page_banner_page_banner
+theme: bartik_subtheme
+region: banner
+weight: -6
+provider: null
+plugin: 'views_block:page_banner-page_banner'
+settings:
+  id: 'views_block:page_banner-page_banner'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -75,6 +75,13 @@
         </aside>
       </div>
     {% endif %}
+    {% if page.banner %}
+      <div class="banner">
+        <aside class="banner__inner section clearfix" role="complementary">
+          {{ page.banner }}
+        </aside>
+      </div>
+    {% endif %}
     <div id="main-wrapper" class="layout-main-wrapper layout-container clearfix">
       <div id="main" class="layout-main clearfix">
         {{ page.breadcrumb }}

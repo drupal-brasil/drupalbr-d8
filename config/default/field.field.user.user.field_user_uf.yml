@@ -1,0 +1,21 @@
+uuid: 2302c604-fcd1-4921-a488-31cec1b43d19
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_user_uf
+  module:
+    - options
+    - user
+id: user.user.field_user_uf
+field_name: field_user_uf
+entity_type: user
+bundle: user
+label: Estado
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

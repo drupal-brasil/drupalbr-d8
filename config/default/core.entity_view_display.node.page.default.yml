@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_page_banner
+    - field.field.node.page.field_page_banner_text
     - node.type.page
   module:
     - text
@@ -16,14 +18,20 @@ bundle: page
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 100
+    weight: 0
     region: content
+    label: hidden
     settings: {  }
     third_party_settings: {  }
-  links:
-    weight: 101
+  content_moderation_control:
+    weight: -20
+    settings: {  }
+    third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
+  field_page_banner: true
+  field_page_banner_text: true
   langcode: true
+  links: true

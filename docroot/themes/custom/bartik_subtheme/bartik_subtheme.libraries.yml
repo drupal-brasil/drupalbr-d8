@@ -1,8 +1,9 @@
 global-styling:
   version: VERSION
   css:
-    component:
-      //fonts.googleapis.com/css?family=Open+Sans: {}
+    base:
+      //fonts.googleapis.com/css?family=Lato: {}
+      //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css: {}
     theme:
       css/style.css: {}
       css/overrides.css: {}

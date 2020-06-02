@@ -8,8 +8,10 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - image.style.banner_thumbnail
     - node.type.article
   module:
+    - media
     - text
     - user
 _core:
@@ -32,6 +34,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_image:
+    type: media_thumbnail
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: banner_thumbnail
+      image_link: content
+    third_party_settings: {  }
   field_tags:
     type: entity_reference_label
     weight: 2
@@ -40,12 +51,8 @@ content:
       link: true
     third_party_settings: {  }
     label: hidden
-  links:
-    weight: 3
-    region: content
-    settings: {  }
-    third_party_settings: {  }
 hidden:
+  addtoany: true
   comment: true
-  field_image: true
   langcode: true
+  links: true

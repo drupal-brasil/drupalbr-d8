@@ -309,6 +309,7 @@ display:
         arguments: false
         title: false
         pager: false
+        css_class: false
       use_more_always: true
       use_more_text: 'Leia mais'
       link_display: page_1
@@ -355,8 +356,9 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 5
+          items_per_page: 4
           offset: 0
+      css_class: 'grid grid-4-columns'
     cache_metadata:
       max-age: -1
       contexts:

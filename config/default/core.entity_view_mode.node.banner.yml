@@ -1,0 +1,10 @@
+uuid: 7fc6db83-8898-4604-9873-3d37af37050b
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.banner
+label: Banner
+targetEntityType: node
+cache: true

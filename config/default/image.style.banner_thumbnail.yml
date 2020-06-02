@@ -1,0 +1,15 @@
+uuid: f806bf50-9a60-4a05-ae7b-9c839e33309d
+langcode: pt-br
+status: true
+dependencies: {  }
+name: banner_thumbnail
+label: 'Banner thumbnail'
+effects:
+  d2d454bf-d21a-4bc6-a60e-8fada78afbf3:
+    uuid: d2d454bf-d21a-4bc6-a60e-8fada78afbf3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 210
+      anchor: center-center

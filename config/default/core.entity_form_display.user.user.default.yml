@@ -3,6 +3,11 @@ langcode: pt-br
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_user_body
+    - field.field.user.user.field_user_cidade
+    - field.field.user.user.field_user_empresa
+    - field.field.user.user.field_user_profissao
+    - field.field.user.user.field_user_uf
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -20,6 +25,44 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_user_body:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_user_cidade:
+    weight: 3
+    settings:
+      size: 30
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_user_empresa:
+    weight: 6
+    settings:
+      size: 30
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_user_profissao:
+    weight: 5
+    settings:
+      size: 30
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_user_uf:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   user_picture:
     type: image_image
     weight: 1

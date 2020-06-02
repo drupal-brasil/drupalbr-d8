@@ -4,6 +4,11 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.field_user_body
+    - field.field.user.user.field_user_cidade
+    - field.field.user.user.field_user_empresa
+    - field.field.user.user.field_user_profissao
+    - field.field.user.user.field_user_uf
     - field.field.user.user.user_picture
     - image.style.user_thumbnail
   module:
@@ -26,5 +31,10 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  field_user_body: true
+  field_user_cidade: true
+  field_user_empresa: true
+  field_user_profissao: true
+  field_user_uf: true
   langcode: true
   member_for: true

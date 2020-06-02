@@ -1,0 +1,21 @@
+uuid: 1998c90e-3a2c-4d1c-bb55-846cfea6c0df
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_user_empresa
+field_name: field_user_empresa
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
