@@ -68,12 +68,15 @@ h1 {
     text-shadow: 0 1px 1px rgba(0,0,0,0.7);
 }
 
-.page-banner--title {
+
+.page-banner--text h1 {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 3rem;
+    line-height: 3.5rem;
 }
+
 .page-banner--description {
     font-weight: 500;
     font-size: 1rem;
@@ -85,6 +88,18 @@ h1 {
 input.form-submit:hover, input.form-submit:focus {
     background-color: #0071b3;
     color: #ffffff;
+}
+
+/* Tabs */
+.tabs ul.primary li a {
+    padding: 5px 20px;
+    border-radius: 0;
+    border: none !important;
+}
+
+.tabs ul.primary li.is-active a {
+    background-color: #1b81bf;
+    color: white;
 }
 
 /* Button */
@@ -112,6 +127,11 @@ input.form-submit:hover, input.form-submit:focus {
     font-size: 1.2em;
 }
 
+.more-link a:hover {
+    background-color: #0071b3;
+    color: #ffffff;
+}
+
 /* node.css */
 .node__content {
     font-size: 1.2em;
@@ -135,7 +155,24 @@ input.form-submit:hover, input.form-submit:focus {
     font-size: 1.2em;
 }
 
+/* elements.css */
+a,
+a.link {
+  border-bottom: none;
+}
+a:hover,
+a:active,
+a:focus,
+.link:hover,
+.link:active,
+.link:focus {
+  border-bottom-style: none;
+}
+
 /* field.css */
+.field--type-entity-reference {
+    margin: 0;
+}
 .field--name-field-tags .field__label {
     font-size: 1.2em;
 }

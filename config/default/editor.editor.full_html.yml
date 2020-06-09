@@ -51,6 +51,13 @@ settings:
           items:
             - ShowBlocks
             - Source
+        -
+          name: 'Text Align'
+          items:
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
   plugins:
     language:
       language_list: un

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.full
+    - core.entity_view_mode.media.teaser
   module:
     - editor
     - media
@@ -53,5 +54,9 @@ filters:
     weight: 100
     settings:
       default_view_mode: full
-      allowed_media_types: {  }
-      allowed_view_modes: {  }
+      allowed_media_types:
+        image: image
+        remote_video: remote_video
+      allowed_view_modes:
+        full: full
+        teaser: teaser
