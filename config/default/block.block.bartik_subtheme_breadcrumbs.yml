@@ -3,7 +3,6 @@ langcode: pt-br
 status: true
 dependencies:
   module:
-    - ctools
     - system
   theme:
     - bartik_subtheme
@@ -21,10 +20,8 @@ settings:
   provider: system
   label_display: '0'
 visibility:
-  'entity_bundle:node':
-    id: 'entity_bundle:node'
-    bundles:
-      page: page
+  request_path:
+    id: request_path
+    pages: '<front>'
     negate: true
-    context_mapping:
-      node: '@node.node_route_context:node'
+    context_mapping: {  }

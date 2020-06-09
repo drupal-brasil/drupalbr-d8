@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.field.user.user.field_user_body
     - field.field.user.user.field_user_cidade
-    - field.field.user.user.field_user_empresa
+    - field.field.user.user.field_user_company
     - field.field.user.user.field_user_profissao
     - field.field.user.user.field_user_uf
     - field.field.user.user.user_picture
@@ -41,13 +41,15 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_user_empresa:
-    weight: 6
+  field_user_company:
+    weight: 7
     settings:
-      size: 30
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: entity_reference_autocomplete
     region: content
   field_user_profissao:
     weight: 5

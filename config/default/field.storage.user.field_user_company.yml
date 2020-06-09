@@ -1,17 +1,16 @@
-uuid: 1998c90e-3a2c-4d1c-bb55-846cfea6c0df
+uuid: 2134401d-9a79-4901-93e3-b346e2e75075
 langcode: pt-br
 status: true
 dependencies:
   module:
+    - taxonomy
     - user
-id: user.field_user_empresa
-field_name: field_user_empresa
+id: user.field_user_company
+field_name: field_user_company
 entity_type: user
-type: string
+type: entity_reference
 settings:
-  max_length: 255
-  is_ascii: false
-  case_sensitive: false
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: 1

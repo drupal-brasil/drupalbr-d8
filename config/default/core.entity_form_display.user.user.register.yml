@@ -6,7 +6,7 @@ dependencies:
     - core.entity_form_mode.user.register
     - field.field.user.user.field_user_body
     - field.field.user.user.field_user_cidade
-    - field.field.user.user.field_user_empresa
+    - field.field.user.user.field_user_company
     - field.field.user.user.field_user_profissao
     - field.field.user.user.field_user_uf
     - field.field.user.user.user_picture
@@ -28,7 +28,7 @@ hidden:
   contact: true
   field_user_body: true
   field_user_cidade: true
-  field_user_empresa: true
+  field_user_company: true
   field_user_profissao: true
   field_user_uf: true
   langcode: true

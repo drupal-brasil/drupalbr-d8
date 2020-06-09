@@ -386,6 +386,9 @@ display:
         weight: -49
         context: '0'
         menu_name: main
+      css_class: 'grid grid-4-columns'
+      defaults:
+        css_class: false
     cache_metadata:
       max-age: -1
       contexts:

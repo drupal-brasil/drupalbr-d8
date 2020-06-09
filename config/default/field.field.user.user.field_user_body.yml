@@ -10,7 +10,7 @@ id: user.user.field_user_body
 field_name: field_user_body
 entity_type: user
 bundle: user
-label: Body
+label: Resumo
 description: ''
 required: false
 translatable: false

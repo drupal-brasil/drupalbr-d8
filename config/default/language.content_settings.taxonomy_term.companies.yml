@@ -1,0 +1,11 @@
+uuid: b063cdbb-9920-4ba3-a0e6-a542d0c3a39c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.companies
+id: taxonomy_term.companies
+target_entity_type_id: taxonomy_term
+target_bundle: companies
+default_langcode: site_default
+language_alterable: false
