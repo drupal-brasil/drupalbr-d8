@@ -18,6 +18,10 @@ h1 {
     line-height: 1.4;
 }
 
+.block-follow-buttons {
+    margin-bottom: 4rem;
+}
+
 /* Layout */
 .layout-main {
     margin-top: 0;
@@ -57,7 +61,7 @@ h1 {
     position: absolute;
     background-position: top center;
     background-size: cover;
-    filter: brightness(0.2);
+    filter: brightness(0.3);
 }
 
 .page-banner--text {
@@ -129,6 +133,7 @@ input.form-submit:hover, input.form-submit:focus {
 }
 
 .more-link a:hover {
+    border: 2px solid #0071b3;
     background-color: #0071b3;
     color: #ffffff;
 }
@@ -190,6 +195,13 @@ a:focus,
     color: #ffffff;
 }
 
+@media all and (min-width: 560px) {
+    .grid .view-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+    }
+}
 
 @media all and (min-width: 851px) {
     .grid .view-content {

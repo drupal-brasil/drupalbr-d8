@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function follow_buttons_theme() {
+    return [
+      'follow_buttons' => [],
+    ];
+  }

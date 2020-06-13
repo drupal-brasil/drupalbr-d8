@@ -1,32 +1,27 @@
-uuid: c4ef4fbd-cdc7-483f-8dc5-1f205252507c
+uuid: d00913b4-1579-44e9-9e0a-2216079a3042
 langcode: pt-br
 status: true
 dependencies:
-  config:
-    - views.view.blog
   module:
     - block_class
+    - follow_buttons
     - system
-    - views
   theme:
     - bartik_subtheme
 third_party_settings:
   block_class:
-    classes: 'block-title-1 text-center'
-id: homepage_blog_latest_posts
+    classes: text-center
+id: followbuttons
 theme: bartik_subtheme
 region: content
-weight: -2
+weight: -3
 provider: null
-plugin: 'views_block:blog-latest_posts'
+plugin: follow_buttons_block
 settings:
-  id: 'views_block:blog-latest_posts'
-  label: ''
-  provider: views
+  id: follow_buttons_block
+  label: 'Follow us'
+  provider: follow_buttons
   label_display: visible
-  views_label: ''
-  items_per_page: none
-  context_mapping: {  }
 visibility:
   request_path:
     id: request_path

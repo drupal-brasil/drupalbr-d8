@@ -77,7 +77,6 @@
   ]
 %}
 {% set image_background = file_url(content.field_page_banner.0['#media'].field_media_image.entity.uri.value) %}
-{{ attach_library('classy/node') }}
 <div{{ attributes.addClass(classes) }}>
     <div class="page-banner" >
       <div class="page-banner--background" style="background-image: url({{image_background}})">

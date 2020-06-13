@@ -11,7 +11,7 @@ _core:
 id: bartik_subtheme_content
 theme: bartik_subtheme
 region: content
-weight: -1
+weight: -4
 provider: null
 plugin: system_main_block
 settings:

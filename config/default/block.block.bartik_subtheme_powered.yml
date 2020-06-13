@@ -3,15 +3,19 @@ langcode: pt-br
 status: true
 dependencies:
   module:
+    - block_class
     - system
   theme:
     - bartik_subtheme
+third_party_settings:
+  block_class:
+    classes: text-center
 _core:
   default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
 id: bartik_subtheme_powered
 theme: bartik_subtheme
 region: footer_fifth
-weight: 10
+weight: -6
 provider: null
 plugin: system_powered_by_block
 settings:

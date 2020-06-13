@@ -61,13 +61,6 @@
         </div>
       </div>
     </header>
-    {% if page.highlighted %}
-      <div class="highlighted">
-        <aside class="layout-container section clearfix" role="complementary">
-          {{ page.highlighted }}
-        </aside>
-      </div>
-    {% endif %}
     {% if page.featured_top %}
       <div class="featured-top">
         <aside class="featured-top__inner section layout-container clearfix" role="complementary">
@@ -79,6 +72,13 @@
       <div class="banner">
         <aside class="banner__inner section clearfix" role="complementary">
           {{ page.banner }}
+        </aside>
+      </div>
+    {% endif %}
+    {% if page.highlighted %}
+      <div class="highlighted">
+        <aside class="layout-container section clearfix" role="complementary">
+          {{ page.highlighted }}
         </aside>
       </div>
     {% endif %}
