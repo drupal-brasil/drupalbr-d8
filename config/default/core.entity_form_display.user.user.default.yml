@@ -6,6 +6,7 @@ dependencies:
     - field.field.user.user.field_user_body
     - field.field.user.user.field_user_cidade
     - field.field.user.user.field_user_company
+    - field.field.user.user.field_user_drupal
     - field.field.user.user.field_user_profissao
     - field.field.user.user.field_user_uf
     - field.field.user.user.user_picture
@@ -50,6 +51,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_user_drupal:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_user_profissao:
     weight: 5

@@ -7,6 +7,7 @@ dependencies:
     - field.field.user.user.field_user_body
     - field.field.user.user.field_user_cidade
     - field.field.user.user.field_user_company
+    - field.field.user.user.field_user_drupal
     - field.field.user.user.field_user_profissao
     - field.field.user.user.field_user_uf
     - field.field.user.user.user_picture
@@ -29,6 +30,7 @@ hidden:
   field_user_body: true
   field_user_cidade: true
   field_user_company: true
+  field_user_drupal: true
   field_user_profissao: true
   field_user_uf: true
   langcode: true

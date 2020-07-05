@@ -57,6 +57,22 @@
     padding: 0 10px;
 }
 
+.card--description-sub-info {
+    padding: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #777777;
+}
+
+.card--description-sub-info a {
+    font-size: 12px !important;
+    color: #777777;
+}
+
+.card--description-title {
+    font-size: 18px;
+}
+
 /* Block Class */
 .block h2 {
     text-transform: uppercase;

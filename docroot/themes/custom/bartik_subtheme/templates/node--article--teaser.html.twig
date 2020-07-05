@@ -77,17 +77,21 @@
     'card',
   ]
 %}
+{% set node_date = node.created.value|date("d M Y") %}
 {{ attach_library('classy/node') }}
 <article{{ attributes.addClass(classes) }}>
   <div class="card--image">
     {{ content.field_image }}
   </div>
   <div class="card--description node__content">
+    <div class="card--description-sub-info">
+      {% trans %}{{ node_date }} | By {{ author_name }}{% endtrans %}
+    </div>
     {{ title_prefix }}
       {% if label and not page %}
-      <h3{{ title_attributes.addClass('node__title') }}>
+      <p{{ title_attributes.addClass('node__title', 'card--description-title') }}>
         <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-      </h3>
+      </p>
     {% endif %}
     {{ title_suffix }}
     {{ content|without('field_image') }}
