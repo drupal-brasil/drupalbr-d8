@@ -10,8 +10,8 @@ id: node.article.field_image
 field_name: field_image
 entity_type: node
 bundle: article
-label: 'Hero Image'
-description: ''
+label: 'Imagem Principal'
+description: 'Selecione a imagem que será exibida no topo do post e também nas chamadas.'
 required: true
 translatable: false
 default_value: {  }
