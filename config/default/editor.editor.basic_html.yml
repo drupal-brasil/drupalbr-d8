@@ -38,6 +38,7 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
         -
           name: Tools
           items:
@@ -54,7 +55,7 @@ settings:
     language:
       language_list: un
     stylescombo:
-      styles: ''
+      styles: a.button|Button
     codesnippet:
       highlight_style: github
       highlight_languages:

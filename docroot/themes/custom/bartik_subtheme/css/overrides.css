@@ -118,6 +118,12 @@ input.form-submit:hover, input.form-submit:focus {
     font-size: 1.2em;
 }
 
+.button:hover {
+    border: 2px solid #0071b3;
+    background-color: #0071b3;
+    color: #ffffff;
+}
+
 /* Read More */
 .more-link {
     text-align: center;
