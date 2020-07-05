@@ -13,4 +13,6 @@ drush_alias=$site'.'$target_env
 
 # Execute a standard drush command.
 drush @$drush_alias cim sync -y
+drush @$drush_alias updb -y
+drush @$drush_alias cim sync -y
 drush @$drush_alias cr
