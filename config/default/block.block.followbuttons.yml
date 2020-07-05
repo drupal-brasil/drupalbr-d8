@@ -14,7 +14,7 @@ third_party_settings:
 id: followbuttons
 theme: bartik_subtheme
 region: content
-weight: -3
+weight: -4
 provider: null
 plugin: follow_buttons_block
 settings:

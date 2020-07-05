@@ -1,0 +1,20 @@
+uuid: 2392828e-025e-43cd-a19f-d87ff108fc51
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - newsletter_block
+  theme:
+    - bartik_subtheme
+id: newsletterblock
+theme: bartik_subtheme
+region: content
+weight: -3
+provider: null
+plugin: newsletter_block
+settings:
+  id: newsletter_block
+  label: 'Newsletter Block'
+  provider: newsletter_block
+  label_display: '0'
+visibility: {  }

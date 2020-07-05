@@ -1,0 +1,5 @@
+name: Newsletter Block
+type: module
+description: 'Newsletter Block'
+package: Other
+core: 8.x

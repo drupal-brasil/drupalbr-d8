@@ -5,6 +5,8 @@
  */
 function follow_buttons_theme() {
     return [
-      'follow_buttons' => [],
+      'follow_buttons' => [
+        'variables' => []
+      ],
     ];
   }

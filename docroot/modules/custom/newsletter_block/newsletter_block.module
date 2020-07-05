@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function newsletter_block_theme() {
+    return [
+      'newsletter_block' => [
+        'variables' => []
+      ],
+    ];
+  }
