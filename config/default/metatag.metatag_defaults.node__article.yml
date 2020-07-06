@@ -1,0 +1,9 @@
+uuid: 2f692ce9-0dfc-44b9-9675-c029b1770152
+langcode: pt-br
+status: true
+dependencies: {  }
+id: node__article
+label: 'Content: Post de Blog'
+tags:
+  image_src: '[node:field_image]'
+  keywords: '[node:field_tags]'

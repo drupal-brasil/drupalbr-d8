@@ -1,0 +1,8 @@
+uuid: 6cad7c9b-57a1-41a5-8493-f5ab70aa4d98
+langcode: pt-br
+status: true
+dependencies: {  }
+id: node__page
+label: 'Content: Página Básica'
+tags:
+  image_src: '[node:field_image]'
