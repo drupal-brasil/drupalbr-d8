@@ -6,3 +6,4 @@ id: node__page
 label: 'Content: Página Básica'
 tags:
   image_src: '[node:field_image]'
+  og_image: '[node:field_image]'
