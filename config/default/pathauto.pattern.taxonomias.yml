@@ -1,0 +1,24 @@
+uuid: 2b154b94-5408-4d74-8c63-813e4cd393e7
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: taxonomias
+label: Taxonomias
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary:name]/[term:name]'
+selection_criteria:
+  2ea7063b-69f8-4f84-8533-82c572685e05:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      companies: companies
+      tags: tags
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 2ea7063b-69f8-4f84-8533-82c572685e05
+selection_logic: and
+weight: -5
+relationships: {  }

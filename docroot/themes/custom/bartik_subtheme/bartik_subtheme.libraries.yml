@@ -2,7 +2,7 @@ global-styling:
   version: VERSION
   css:
     base:
-      //fonts.googleapis.com/css?family=Lato: {}
+      //fonts.googleapis.com/css?family=Raleway: {}
       //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css: {}
       //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/brands.min.css: {}
       //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/solid.min.css: {}

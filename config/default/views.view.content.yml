@@ -2,15 +2,18 @@ uuid: b94159dc-ad43-476f-b8f1-da45e34fd992
 langcode: pt-br
 status: true
 dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
   module:
     - node
     - user
+    - yoast_seo
 _core:
   default_config_hash: P7F4DFe8BL31DRVqsvS-ix9KZZqvvaPjZ7zEvGo9yNM
 id: content
-label: Content
+label: Conteúdo
 module: node
-description: 'Find and manage content.'
+description: 'Encontrar e gerenciar conteúdo.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -28,20 +31,20 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Filtrar
           reset_button: true
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
       pager:
         type: full
         options:
           items_per_page: 50
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
+            previous: '‹ Voltar'
+            next: 'Avançar ›'
             first: '« First'
             last: 'Last »'
       style:
@@ -160,7 +163,7 @@ display:
           id: title
           table: node_field_data
           field: title
-          label: Title
+          label: Título
           exclude: false
           alter:
             alter_text: false
@@ -183,7 +186,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: 'Content type'
+          label: 'Tipo de conteúdo'
           exclude: false
           alter:
             alter_text: false
@@ -246,7 +249,7 @@ display:
           table: users_field_data
           field: name
           relationship: uid
-          label: Author
+          label: Autor
           exclude: false
           alter:
             alter_text: false
@@ -277,8 +280,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_true: Published
-            format_custom_false: Unpublished
+            format_custom_true: Publicado
+            format_custom_false: 'Não publicado'
           plugin_id: field
           entity_type: node
           entity_field: status
@@ -286,7 +289,7 @@ display:
           id: changed
           table: node_field_data
           field: changed
-          label: Updated
+          label: Atualizado
           exclude: false
           alter:
             alter_text: false
@@ -311,7 +314,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: Operações
           exclude: false
           alter:
             alter_text: false
@@ -354,6 +357,12 @@ display:
           hide_alter_empty: true
           destination: true
           plugin_id: entity_operations
+        field_yoast_seo:
+          id: field_yoast_seo
+          table: node__field_yoast_seo
+          field: field_yoast_seo
+          type: yoastseo_formatter
+          plugin_id: field
       filters:
         title:
           id: title
@@ -368,7 +377,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: Title
+            label: Título
             description: ''
             use_operator: false
             operator: title_op
@@ -410,7 +419,7 @@ display:
           exposed: true
           expose:
             operator_id: type_op
-            label: 'Content type'
+            label: 'Tipo de conteúdo'
             description: ''
             use_operator: false
             operator: type_op
@@ -467,7 +476,7 @@ display:
             operator_list: {  }
           is_grouped: true
           group_info:
-            label: 'Published status'
+            label: 'Status publicado'
             description: ''
             identifier: status
             optional: true
@@ -478,11 +487,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Publicado
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: 'Não publicado'
                 operator: '='
                 value: '0'
           plugin_id: boolean
@@ -501,7 +510,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Idioma
             description: ''
             use_operator: false
             operator: langcode_op
@@ -544,14 +553,14 @@ display:
             operator_limit_selection: false
             operator_list: {  }
       sorts: {  }
-      title: Content
+      title: Conteúdo
       empty:
         area_text_custom:
           id: area_text_custom
           table: views
           field: area_text_custom
           empty: true
-          content: 'No content available.'
+          content: 'Sem conteúdo disponivel.'
           plugin_id: text_custom
       arguments: {  }
       relationships:
@@ -569,7 +578,7 @@ display:
           1: AND
       display_extenders: {  }
     display_plugin: default
-    display_title: Master
+    display_title: Principal
     id: default
     position: 0
     cache_metadata:
@@ -582,26 +591,27 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_yoast_seo'
   page_1:
     display_options:
       path: admin/content/node
       menu:
         type: 'default tab'
-        title: Content
+        title: Conteúdo
         description: ''
         menu_name: admin
         weight: -10
         context: ''
       tab_options:
         type: normal
-        title: Content
+        title: Conteúdo
         description: 'Find and manage content'
         menu_name: admin
         weight: -10
       display_extenders: {  }
     display_plugin: page
-    display_title: Page
+    display_title: Página
     id: page_1
     position: 1
     cache_metadata:
@@ -614,4 +624,5 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       max-age: 0
-      tags: {  }
+      tags:
+        - 'config:field.storage.node.field_yoast_seo'

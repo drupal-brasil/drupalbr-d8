@@ -1,4 +1,4 @@
-uuid: c4ef4fbd-cdc7-483f-8dc5-1f205252507c
+uuid: e9668923-0e57-4443-a17d-5758d924d5c6
 langcode: pt-br
 status: true
 dependencies:
@@ -13,14 +13,14 @@ dependencies:
 third_party_settings:
   block_class:
     classes: 'block-title-1 text-center'
-id: homepage_blog_latest_posts
+id: blog_homepage
 theme: bartik_subtheme
 region: content
-weight: -2
+weight: 0
 provider: null
-plugin: 'views_block:blog-latest_posts'
+plugin: 'views_block:blog-block_1'
 settings:
-  id: 'views_block:blog-latest_posts'
+  id: 'views_block:blog-block_1'
   label: ''
   provider: views
   label_display: visible
