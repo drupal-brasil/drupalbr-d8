@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: c-HMyZwgeP8H6AITDcq4hznePkd7azpe8xl_WTnx2O0
 id: views-ui
-label: 'View edit page'
+label: 'Página de edição de view'
 module: views_ui
 routes:
   -
@@ -18,13 +18,13 @@ tips:
   views-main:
     id: views-main
     plugin: text
-    label: 'Manage view settings'
+    label: 'Gerenciar as configurações de view'
     body: 'View or edit the configuration.'
     weight: 1
   views-ui-displays:
     id: views-ui-displays
     plugin: text
-    label: 'Displays in this view'
+    label: 'Exibições nesta view'
     body: 'A display is a way of outputting the results, e.g., as a page or a block. A view can contain multiple displays, which are listed here. The active display is highlighted.'
     weight: 2
     attributes:
@@ -32,8 +32,8 @@ tips:
   views-ui-view-admin:
     id: views-ui-view-admin
     plugin: text
-    label: 'View administration'
-    body: 'Perform administrative tasks, including adding a description and creating a clone. Click the drop-down button to view the available options.'
+    label: 'Administração da view'
+    body: 'Realizar tarefas administrativas, incluindo adicionar uma descrição e clicar um clone. Clique no botão drop-down para ver as opções disponíveis.'
     weight: 3
     location: left
     attributes:
@@ -50,23 +50,23 @@ tips:
     id: views-ui-fields
     plugin: text
     label: Fields
-    body: 'If this view uses fields, they are listed here. You can click on a field to configure it.'
+    body: 'Se essa view usa campos, eles são listados aqui. Você pode clicar em um campo para configurá-lo.'
     weight: 5
     attributes:
       data-class: views-ui-display-tab-bucket.field
   views-ui-filter:
     id: views-ui-filter
     plugin: text
-    label: 'Filter your view'
-    body: 'Add filters to limit the results in the output. E.g., to only show content that is <em>published</em>, you would add a filter for <em>Published</em> and select <em>Yes</em>.'
+    label: 'Filtrar sua view'
+    body: 'Adicione filtros para limitar os resultados exibidos. Por exemplo, para mostrar apenas conteúdo que esteja <em>publicado</em>, você deve adicionar um filtro para <em>Publicado</em> e selecionar <em>Sim</em>.'
     weight: 6
     attributes:
       data-class: views-ui-display-tab-bucket.filter
   views-ui-filter-operations:
     id: views-ui-filter-operations
     plugin: text
-    label: 'Filter actions'
-    body: 'Add, rearrange or remove filters.'
+    label: 'Filtrar ações'
+    body: 'Adicionar, rearranjar ou remover filtros.'
     weight: 7
     attributes:
       data-class: 'views-ui-display-tab-bucket.filter .dropbutton-widget'
@@ -74,7 +74,7 @@ tips:
     id: views-ui-sorts
     plugin: text
     label: 'Sort Criteria'
-    body: 'Control the order in which the results are output. Click on an active sort rule to configure it.'
+    body: 'Controlar a ordem em que os resultados são exibidos. Clique em uma regra de ordenação para configurá-la.'
     weight: 8
     attributes:
       data-class: views-ui-display-tab-bucket.sort

@@ -9,7 +9,7 @@ _core:
 id: who_s_online
 label: 'Who''s online block'
 module: user
-description: 'Shows the user names of the most recently active users, and the total number of active users.'
+description: 'Mostra os nomes dos usuários ativos mais recentemente, e o número total de usuários ativos.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -17,7 +17,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Principal
     position: 0
     display_options:
       access:
@@ -40,11 +40,11 @@ display:
         options:
           submit_button: Apply
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
       pager:
         type: some
         options:
@@ -182,7 +182,7 @@ display:
           group_type: group
           admin_label: ''
           empty: false
-          content: 'There are currently @total users online.'
+          content: 'Atualmente há @total usuários online.'
           plugin_id: result
       footer: {  }
       empty:
@@ -195,7 +195,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'There are currently 0 users online.'
+          content: 'Atualmente há 0 usuários online.'
           plugin_id: text_custom
       relationships: {  }
       arguments: {  }

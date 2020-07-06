@@ -12,14 +12,14 @@ _core:
 id: archive
 label: Archive
 module: node
-description: 'All content, by month.'
+description: 'Todo o conteúdo, por mês.'
 tag: default
 base_table: node_field_data
 base_field: nid
 display:
   default:
     id: default
-    display_title: Master
+    display_title: Principal
     display_plugin: default
     position: 0
     display_options:
@@ -44,11 +44,11 @@ display:
         options:
           submit_button: Apply
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
       pager:
         type: mini
         options:
@@ -226,7 +226,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Página
     display_plugin: page
     position: 2
     display_options:

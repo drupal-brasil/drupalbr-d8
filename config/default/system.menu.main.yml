@@ -6,5 +6,5 @@ _core:
   default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
 id: main
 label: 'Navegação principal'
-description: 'Site section links'
+description: 'Links de seções do site'
 locked: true

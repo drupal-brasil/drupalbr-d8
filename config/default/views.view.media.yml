@@ -21,7 +21,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Principal
     position: 0
     display_options:
       access:
@@ -42,13 +42,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Filtrar
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
       pager:
         type: full
         options:
@@ -65,10 +65,10 @@ display:
             offset: false
             offset_label: Offset
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
+            previous: '‹ Voltar'
+            next: 'Avançar ›'
+            first: '« Primeiro'
+            last: 'Último »'
           quantity: 9
       style:
         type: table
@@ -374,7 +374,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Author
+          label: Autor
           exclude: false
           alter:
             alter_text: false
@@ -484,8 +484,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_true: Published
-            format_custom_false: Unpublished
+            format_custom_true: Publicado
+            format_custom_false: 'Não publicado'
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -506,7 +506,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Updated
+          label: Atualizado
           exclude: false
           alter:
             alter_text: false
@@ -573,7 +573,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: Operações
           exclude: false
           alter:
             alter_text: false
@@ -730,7 +730,7 @@ display:
             operator_list: {  }
           is_grouped: true
           group_info:
-            label: 'Published status'
+            label: 'Status publicado'
             description: ''
             identifier: status
             optional: true
@@ -741,11 +741,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Publicado
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: 'Não publicado'
                 operator: '='
                 value: '0'
           plugin_id: boolean
@@ -803,7 +803,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Idioma
             description: ''
             use_operator: false
             operator: langcode_op

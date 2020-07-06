@@ -13,7 +13,7 @@ _core:
 id: frontpage
 label: Frontpage
 module: node
-description: 'All content promoted to the front page.'
+description: 'Todo o conteúdo promovido à página inicial.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -60,18 +60,18 @@ display:
           admin_label: ''
           label: ''
           empty: true
-          title: 'Welcome to [site:name]'
+          title: 'Bem-vindo a [site:name]'
           plugin_id: title
       exposed_form:
         type: basic
         options:
           submit_button: Apply
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
       filters:
         promote:
           admin_label: ''
@@ -184,10 +184,10 @@ display:
             offset: false
             offset_label: Offset
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
+            previous: '‹ Voltar'
+            next: 'Avançar ›'
+            first: '« Primeiro'
+            last: 'Último »'
           quantity: 9
       query:
         type: views_query
@@ -246,7 +246,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     display_plugin: default
-    display_title: Master
+    display_title: Principal
     id: default
     position: 0
     cache_metadata:
@@ -300,7 +300,7 @@ display:
       defaults:
         title: false
     display_plugin: page
-    display_title: Page
+    display_title: Página
     id: page_1
     position: 1
     cache_metadata:

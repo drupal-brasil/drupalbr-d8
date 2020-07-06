@@ -7,3 +7,4 @@ label: 'Content: Post de Blog'
 tags:
   image_src: '[node:field_image]'
   keywords: '[node:field_tags]'
+  og_image_url: '[node:field_image]'

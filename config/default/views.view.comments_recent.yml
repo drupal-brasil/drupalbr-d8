@@ -11,7 +11,7 @@ _core:
 id: comments_recent
 label: 'Recent comments'
 module: views
-description: 'Recent comments.'
+description: 'Comentários recentes.'
 tag: default
 base_table: comment_field_data
 base_field: cid
@@ -19,7 +19,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Principal
     position: 0
     display_options:
       access:

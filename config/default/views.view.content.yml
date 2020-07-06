@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: P7F4DFe8BL31DRVqsvS-ix9KZZqvvaPjZ7zEvGo9yNM
 id: content
-label: Conteúdo
+label: Content
 module: node
 description: 'Encontrar e gerenciar conteúdo.'
 tag: default
@@ -45,8 +45,8 @@ display:
           tags:
             previous: '‹ Voltar'
             next: 'Avançar ›'
-            first: '« First'
-            last: 'Last »'
+            first: '« Primeiro'
+            last: 'Último »'
       style:
         type: table
         options:
@@ -553,7 +553,7 @@ display:
             operator_limit_selection: false
             operator_list: {  }
       sorts: {  }
-      title: Conteúdo
+      title: Content
       empty:
         area_text_custom:
           id: area_text_custom
@@ -598,15 +598,15 @@ display:
       path: admin/content/node
       menu:
         type: 'default tab'
-        title: Conteúdo
+        title: Content
         description: ''
         menu_name: admin
         weight: -10
         context: ''
       tab_options:
         type: normal
-        title: Conteúdo
-        description: 'Find and manage content'
+        title: Content
+        description: 'Buscar e gerenciar conteúdo'
         menu_name: admin
         weight: -10
       display_extenders: {  }

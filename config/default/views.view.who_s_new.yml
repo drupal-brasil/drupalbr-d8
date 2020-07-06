@@ -9,7 +9,7 @@ _core:
 id: who_s_new
 label: 'Who''s new'
 module: user
-description: 'Shows a list of the newest user accounts on the site.'
+description: 'Mostrar uma lista das novas contas de usuários no site.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -17,7 +17,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Principal
     position: 0
     display_options:
       access:
@@ -40,11 +40,11 @@ display:
         options:
           submit_button: Apply
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
       pager:
         type: some
         options:
@@ -183,7 +183,7 @@ display:
     display_title: 'Who''s new'
     position: 1
     display_options:
-      display_description: 'A list of new users'
+      display_description: 'Uma lista de novos usuários'
       block_description: 'Who''s new'
       block_category: User
       display_extenders: {  }

@@ -5,6 +5,6 @@ dependencies: {  }
 _core:
   default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
 id: long
-label: 'Default long date'
+label: 'Data longa padrão'
 locked: false
-pattern: 'l, F j, Y - H:i'
+pattern: 'l, j \d\e F \d\e Y - H:i'

@@ -17,7 +17,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Principal
     position: 0
     display_options:
       access:
@@ -37,13 +37,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Filtrar
           reset_button: true
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
       pager:
         type: full
         options:
@@ -52,10 +52,10 @@ display:
           id: 0
           total_pages: 0
           tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
+            previous: '‹ Voltar'
+            next: 'Avançar ›'
+            first: '« Primeiro'
+            last: 'Último »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -469,7 +469,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Operations
+          label: Operações
           exclude: false
           alter:
             alter_text: false
@@ -591,7 +591,7 @@ display:
           exposed: true
           expose:
             operator_id: combine_op
-            label: 'Name or email contains'
+            label: 'Nome ou email contém'
             description: ''
             use_operator: false
             operator: combine_op
@@ -894,7 +894,7 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: Page
+    display_title: Página
     position: 1
     display_options:
       path: admin/people/list
