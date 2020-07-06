@@ -43,8 +43,8 @@ h1 {
 
 /* featured-top.css */
 .featured-top {
-    background: url(../images/title_bg.png) no-repeat;
-    background-position: bottom;
+    background: url(../images/title_bg.webp) no-repeat;
+    background-position: top;
     background-size: cover;
     padding-bottom: 20px;
 }
