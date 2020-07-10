@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: UZP23LgBdE1XbvscbLCdd9uTk5t4qqA1Z56koqbvYP0
 id: media
-label: Media
+label: Mídia
 module: views
 description: 'Find and manage media.'
 tag: ''
@@ -184,7 +184,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Ação
           include_exclude: exclude
           selected_actions: {  }
           entity_type: media
@@ -849,7 +849,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: Media
+      title: Mídia
       header: {  }
       footer: {  }
       empty:
@@ -880,14 +880,14 @@ display:
   media_page_list:
     display_plugin: page
     id: media_page_list
-    display_title: Media
+    display_title: Mídia
     position: 1
     display_options:
       display_extenders: {  }
       path: admin/content/media
       menu:
         type: tab
-        title: Media
+        title: Mídia
         description: ''
         expanded: false
         parent: ''

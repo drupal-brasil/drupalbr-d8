@@ -40,6 +40,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/pathauto": "^1.6",
+        "drupal/swiftmailer": "^2.0@beta",
         "drupal/twig_tweak": "^2.5",
         "drupal/yoast_seo": "^1.5"
     },

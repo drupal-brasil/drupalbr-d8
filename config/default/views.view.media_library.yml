@@ -134,7 +134,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Ação
           include_exclude: exclude
           selected_actions: {  }
           entity_type: media
@@ -204,7 +204,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: 'Publishing status'
+            label: 'Status de publicação'
             description: null
             use_operator: false
             operator: status_op
@@ -294,7 +294,7 @@ display:
           exposed: true
           expose:
             operator_id: bundle_op
-            label: 'Media type'
+            label: 'Tipo de mídia'
             description: ''
             use_operator: false
             operator: bundle_op
@@ -311,7 +311,7 @@ display:
             operator_list: {  }
           is_grouped: false
           group_info:
-            label: 'Media type'
+            label: 'Tipo de mídia'
             description: null
             identifier: bundle
             optional: true
@@ -453,7 +453,7 @@ display:
           entity_type: media
           entity_field: name
           plugin_id: standard
-      title: Media
+      title: Mídia
       header: {  }
       footer: {  }
       empty:
@@ -539,7 +539,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Ação
           include_exclude: exclude
           selected_actions: {  }
           entity_type: media
@@ -657,7 +657,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          text: Edit
+          text: Editar
           output_url_as_text: false
           absolute: false
           entity_type: media

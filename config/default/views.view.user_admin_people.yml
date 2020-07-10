@@ -7,9 +7,9 @@ dependencies:
 _core:
   default_config_hash: J5EbGNdz0YUaSIYKwomyFSOtZjsV9TrBA3qdb3ZwBS0
 id: user_admin_people
-label: People
+label: Pessoas
 module: user
-description: 'Find and manage people interacting with your site.'
+description: 'Achar e gerenciar pessoas interagindo com seu site.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -198,7 +198,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Username
+          label: 'Nome de usuário'
           exclude: false
           alter:
             alter_text: false
@@ -853,7 +853,7 @@ display:
           plugin_id: date
           entity_type: user
           entity_field: created
-      title: People
+      title: Pessoas
       empty:
         area_text_custom:
           id: area_text_custom
@@ -864,7 +864,7 @@ display:
           admin_label: ''
           empty: true
           tokenize: false
-          content: 'No people available.'
+          content: 'Nenhuma pessoa disponível.'
           plugin_id: text_custom
       use_more: false
       use_more_always: false
@@ -902,13 +902,13 @@ display:
       menu:
         type: 'default tab'
         title: List
-        description: 'Find and manage people interacting with your site.'
+        description: 'Achar e gerenciar pessoas interagindo com seu site.'
         menu_name: admin
         weight: -10
         context: ''
       tab_options:
         type: normal
-        title: People
+        title: Pessoas
         description: 'Manage user accounts, roles, and permissions.'
         menu_name: admin
         weight: 0

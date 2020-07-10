@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - newsletter_block
+    - system
   theme:
     - bartik_subtheme
 id: newsletterblock
@@ -17,4 +18,9 @@ settings:
   label: 'Newsletter Block'
   provider: newsletter_block
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/user\r\n/user/*"
+    negate: true
+    context_mapping: {  }

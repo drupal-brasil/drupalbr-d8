@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: fsBo_zgUeLyYZdghaw4PkOHA-HqFxu7wmQLilF35XYg
 id: comment
-label: Comments
+label: Comentários
 module: comment
 description: 'Find and manage comments.'
 tag: default
@@ -179,7 +179,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Ação
           include_exclude: include
           selected_actions:
             - comment_delete_action
@@ -193,7 +193,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Subject
+          label: Assunto
           exclude: false
           alter:
             alter_text: false
@@ -682,7 +682,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Subject
+            label: Assunto
             description: ''
             use_operator: false
             operator: subject_op
@@ -813,7 +813,7 @@ display:
           entity_type: comment
           entity_field: changed
           plugin_id: date
-      title: Comments
+      title: Comentários
       header: {  }
       footer: {  }
       empty:
@@ -867,14 +867,14 @@ display:
   page_published:
     display_plugin: page
     id: page_published
-    display_title: 'Published comments'
+    display_title: 'Comentários publicados'
     position: 1
     display_options:
       path: admin/content/comment
       menu:
         type: tab
-        title: Comments
-        description: 'Comments published'
+        title: Comentários
+        description: 'Comentários publicados'
         parent: ''
         weight: 0
         context: '0'
@@ -903,7 +903,7 @@ display:
       menu:
         type: tab
         title: 'Unapproved comments'
-        description: 'Comments unapproved'
+        description: 'Comentários desaprovados'
         parent: ''
         weight: 1
         context: '0'
@@ -963,7 +963,7 @@ display:
           exposed: true
           expose:
             operator_id: subject_op
-            label: Subject
+            label: Assunto
             description: ''
             use_operator: false
             operator: subject_op
@@ -1132,7 +1132,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Ação
           include_exclude: include
           selected_actions:
             - comment_delete_action
@@ -1146,7 +1146,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Subject
+          label: Assunto
           exclude: false
           alter:
             alter_text: false
