@@ -1,0 +1,6 @@
+name: Follow Buttons
+type: module
+description: 'Follow buttons by AddToAny'
+package: Other
+core: 8.x
+configure: addtoany.admin_settings

@@ -35,6 +35,7 @@ module:
   language: 0
   link: 0
   locale: 0
+  mail_login: 0
   mailsystem: 0
   media: 0
   media_library: 0
@@ -52,6 +53,7 @@ module:
   responsive_image: 0
   search: 0
   shortcut: 0
+  simple_sitemap: 0
   swiftmailer: 0
   system: 0
   taxonomy: 0

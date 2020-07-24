@@ -1074,56 +1074,6 @@
         }
     },
     {
-        "name": "drupal/components",
-        "version": "1.1.0",
-        "version_normalized": "1.1.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupalcode.org/project/components.git",
-            "reference": "8.x-1.1"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/components-8.x-1.1.zip",
-            "reference": "8.x-1.1",
-            "shasum": "72af8ff1ca842556ee4b95335595c24703acdb75"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "type": "drupal-module",
-        "extra": {
-            "drupal": {
-                "version": "8.x-1.1",
-                "datestamp": "1556870881",
-                "security-coverage": {
-                    "status": "covered",
-                    "message": "Covered by Drupal's security advisory policy"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0-or-later"
-        ],
-        "authors": [
-            {
-                "name": "JohnAlbin",
-                "homepage": "https://www.drupal.org/user/32095"
-            },
-            {
-                "name": "RobLoach",
-                "homepage": "https://www.drupal.org/user/61114"
-            }
-        ],
-        "description": "Registers “component libraries” defined in modules and themes with the Twig system",
-        "homepage": "https://www.drupal.org/project/components",
-        "support": {
-            "source": "https://git.drupalcode.org/project/components"
-        }
-    },
-    {
         "name": "drupal/core",
         "version": "8.9.1",
         "version_normalized": "8.9.1.0",
@@ -1780,6 +1730,60 @@
         }
     },
     {
+        "name": "drupal/mail_login",
+        "version": "2.2.0",
+        "version_normalized": "2.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/mail_login.git",
+            "reference": "8.x-2.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/mail_login-8.x-2.2.zip",
+            "reference": "8.x-2.2",
+            "shasum": "3b3fde54d1ebb415da7d5de2e38b324720cc0987"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-2.2",
+                "datestamp": "1594002206",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Mohammad AlQanneh",
+                "homepage": "https://www.drupal.org/u/mqanneh",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "This module enables users to login by email address.",
+        "homepage": "https://www.drupal.org/project/mail_login",
+        "keywords": [
+            "drupal",
+            "php",
+            "user"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/mail_login",
+            "issues": "http://drupal.org/project/issues/mail_login",
+            "email": "mqanneh@gmail.com"
+        }
+    },
+    {
         "name": "drupal/mailsystem",
         "version": "4.3.0",
         "version_normalized": "4.3.0.0",
@@ -1977,6 +1981,62 @@
             "source": "https://cgit.drupalcode.org/pathauto",
             "issues": "https://www.drupal.org/project/issues/pathauto",
             "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+        }
+    },
+    {
+        "name": "drupal/simple_sitemap",
+        "version": "3.7.0",
+        "version_normalized": "3.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/simple_sitemap.git",
+            "reference": "8.x-3.7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-3.7.zip",
+            "reference": "8.x-3.7",
+            "shasum": "7b23930cc71d37f332c1e836bc18c29ed2ae8cde"
+        },
+        "require": {
+            "drupal/core": "^8 || ^9",
+            "ext-xmlwriter": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "drupal": {
+                "version": "8.x-3.7",
+                "datestamp": "1592298918",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9 || ^10"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Pawel Ginalski (gbyte.co)",
+                "homepage": "https://www.drupal.org/u/gbyte.co",
+                "email": "contact@gbyte.co",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "Creates a standard conform hreflang XML sitemap of the site content and provides a framework for developing other sitemap types.",
+        "homepage": "https://drupal.org/project/simple_sitemap",
+        "support": {
+            "source": "https://cgit.drupalcode.org/simple_sitemap",
+            "issues": "https://drupal.org/project/issues/simple_sitemap",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
         }
     },
     {

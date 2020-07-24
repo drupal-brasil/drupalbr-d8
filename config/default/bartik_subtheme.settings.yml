@@ -5,5 +5,8 @@ features:
   favicon: true
 logo:
   use_default: true
+  path: themes/custom/bartik_subtheme/logo.png
 favicon:
   use_default: true
+  path: themes/custom/bartik_subtheme/logo.png
+  mimetype: image/png

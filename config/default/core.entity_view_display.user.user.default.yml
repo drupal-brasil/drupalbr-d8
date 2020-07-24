@@ -7,6 +7,7 @@ dependencies:
     - field.field.user.user.field_user_cidade
     - field.field.user.user.field_user_company
     - field.field.user.user.field_user_drupal
+    - field.field.user.user.field_user_newsletter
     - field.field.user.user.field_user_profissao
     - field.field.user.user.field_user_uf
     - field.field.user.user.user_picture
@@ -52,6 +53,16 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_user_newsletter:
+    weight: 14
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
     region: content
   field_user_profissao:
     weight: 10

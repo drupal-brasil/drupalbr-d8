@@ -8,6 +8,7 @@ dependencies:
     - field.field.user.user.field_user_cidade
     - field.field.user.user.field_user_company
     - field.field.user.user.field_user_drupal
+    - field.field.user.user.field_user_newsletter
     - field.field.user.user.field_user_profissao
     - field.field.user.user.field_user_uf
     - field.field.user.user.user_picture
@@ -24,6 +25,13 @@ content:
     weight: 0
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_user_newsletter:
+    type: boolean_checkbox
+    weight: 1
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
 hidden:
   contact: true
