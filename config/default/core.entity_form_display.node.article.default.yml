@@ -10,8 +10,10 @@ dependencies:
     - field.field.node.article.field_tags
     - field.field.node.article.field_yoast_seo
     - node.type.article
+    - workflows.workflow.editorial
   module:
     - comment
+    - content_moderation
     - media_library
     - metatag
     - path
@@ -86,11 +88,9 @@ content:
     third_party_settings: {  }
   moderation_state:
     weight: 26
-    settings:
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-    type: string_textfield
+    type: moderation_state_default
     region: content
   path:
     type: path

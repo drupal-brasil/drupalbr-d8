@@ -43,11 +43,13 @@
         "drupal/simple_sitemap": "^3.7",
         "drupal/swiftmailer": "^2.0@beta",
         "drupal/twig_tweak": "^2.5",
-        "drupal/yoast_seo": "^1.5"
+        "drupal/yoast_seo": "^1.5",
+        "drush/drush": "dev-master"
     },
     "require-dev": {
         "drupal/devel": "^2.1",
-        "drupal/kint": "^2.1"
+        "drupal/kint": "^2.1",
+        "drupal/stage_file_proxy": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"

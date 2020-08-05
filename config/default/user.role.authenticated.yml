@@ -39,4 +39,5 @@ permissions:
   - 'view article revisions'
   - 'view media'
   - 'view own unpublished content'
+  - 'view own unpublished media'
   - 'view the administration theme'
