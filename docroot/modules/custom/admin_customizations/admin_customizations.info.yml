@@ -1,6 +1,5 @@
-name: Follow Buttons
+name: Admin Customizations
 type: module
-description: 'Follow buttons by AddToAny'
+description: 'Admin customizations to improve de experience to manage the CMS'
 package: Other
 core: 8.x
-configure: addtoany.admin_settings
