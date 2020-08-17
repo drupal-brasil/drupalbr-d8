@@ -7,3 +7,9 @@ function admin_customizations_form_alter(&$form, FormStateInterface $form_state,
     $form['#attached']['library'][] = 'admin_customizations/admin-custom';
   }
 }
+
+function admin_customizations_field_widget_form_alter(&$element, FormStateInterface $form_state, $context) {
+  if ($context['widget'] instanceof \Drupal\text\Plugin\Field\FieldWidget\TextareaWidget && isset($context['form']['#id']) && $context['form']['#id'] == 'comment-form') {
+    $element['#allowed_formats'] = ['restricted_html'];
+  }
+}
